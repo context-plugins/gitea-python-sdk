@@ -1,0 +1,49 @@
+
+# Op Type
+
+the type of action
+
+## Enumeration
+
+`OpType`
+
+## Fields
+
+| Name |
+|  --- |
+| `CREATE_REPO` |
+| `RENAME_REPO` |
+| `STAR_REPO` |
+| `WATCH_REPO` |
+| `COMMIT_REPO` |
+| `CREATE_ISSUE` |
+| `CREATE_PULL_REQUEST` |
+| `TRANSFER_REPO` |
+| `PUSH_TAG` |
+| `COMMENT_ISSUE` |
+| `MERGE_PULL_REQUEST` |
+| `CLOSE_ISSUE` |
+| `REOPEN_ISSUE` |
+| `CLOSE_PULL_REQUEST` |
+| `REOPEN_PULL_REQUEST` |
+| `DELETE_TAG` |
+| `DELETE_BRANCH` |
+| `MIRROR_SYNC_PUSH` |
+| `MIRROR_SYNC_CREATE` |
+| `MIRROR_SYNC_DELETE` |
+| `APPROVE_PULL_REQUEST` |
+| `REJECT_PULL_REQUEST` |
+| `COMMENT_PULL` |
+| `PUBLISH_RELEASE` |
+| `PULL_REVIEW_DISMISSED` |
+| `PULL_REQUEST_READY_FOR_REVIEW` |
+| `AUTO_MERGE_PULL_REQUEST` |
+
+## Example
+
+```python
+from giteaapi.models.op_type import OpType
+
+op_type = OpType.PULL_REVIEW_DISMISSED
+```
+
