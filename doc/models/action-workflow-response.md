@@ -23,8 +23,8 @@ ActionWorkflowResponse returns a ActionWorkflow
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.action_workflow import ActionWorkflow
-from giteaapi.models.action_workflow_response import ActionWorkflowResponse
+from gitea.models.action_workflow import ActionWorkflow
+from gitea.models.action_workflow_response import ActionWorkflowResponse
 
 action_workflow_response = ActionWorkflowResponse(
     total_count=124,

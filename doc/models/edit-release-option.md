@@ -26,7 +26,7 @@ EditReleaseOption options when editing a release
 ```python
 import jsonpickle
 
-from giteaapi.models.edit_release_option import EditReleaseOption
+from gitea.models.edit_release_option import EditReleaseOption
 
 edit_release_option = EditReleaseOption(
     body='body4',

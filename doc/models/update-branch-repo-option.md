@@ -23,7 +23,7 @@ UpdateBranchRepoOption options when updating a branch reference in a repository
 ```python
 import jsonpickle
 
-from giteaapi.models.update_branch_repo_option import UpdateBranchRepoOption
+from gitea.models.update_branch_repo_option import UpdateBranchRepoOption
 
 update_branch_repo_option = UpdateBranchRepoOption(
     new_commit_id='new_commit_id8',

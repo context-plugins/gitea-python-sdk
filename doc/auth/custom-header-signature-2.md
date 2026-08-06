@@ -22,10 +22,10 @@ Documentation for accessing and setting credentials for TOTPHeader.
 You must provide credentials in the client as shown in the following code snippet.
 
 ```python
-from giteaapi.giteaapi_client import GiteaapiClient
-from giteaapi.http.auth.totp_header import TotpHeaderCredentials
+from gitea.gitea_client import GiteaClient
+from gitea.http.auth.totp_header import TotpHeaderCredentials
 
-client = GiteaapiClient(
+client = GiteaClient(
     totp_header_credentials=TotpHeaderCredentials(
         x_gitea_otp='X-GITEA-OTP'
     )

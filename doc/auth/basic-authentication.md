@@ -23,10 +23,10 @@ Documentation for accessing and setting credentials for BasicAuth.
 You must provide credentials in the client as shown in the following code snippet.
 
 ```python
-from giteaapi.giteaapi_client import GiteaapiClient
-from giteaapi.http.auth.basic_auth import BasicAuthCredentials
+from gitea.gitea_client import GiteaClient
+from gitea.http.auth.basic_auth import BasicAuthCredentials
 
-client = GiteaapiClient(
+client = GiteaClient(
     basic_auth_credentials=BasicAuthCredentials(
         username='Username',
         password='Password'

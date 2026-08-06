@@ -34,7 +34,7 @@ GPGKey a user GPG key to sign commit and tag in repository
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.gpg_key import GpgKey
+from gitea.models.gpg_key import GpgKey
 
 gpg_key = GpgKey(
     can_certify=False,

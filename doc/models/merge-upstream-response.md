@@ -19,7 +19,7 @@
 ```python
 import jsonpickle
 
-from giteaapi.models.merge_upstream_response import MergeUpstreamResponse
+from gitea.models.merge_upstream_response import MergeUpstreamResponse
 
 merge_upstream_response = MergeUpstreamResponse(
     merge_type='merge_type4',

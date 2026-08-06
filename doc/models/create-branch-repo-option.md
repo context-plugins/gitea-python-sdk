@@ -23,7 +23,7 @@ CreateBranchRepoOption options when creating a branch in a repository
 ```python
 import jsonpickle
 
-from giteaapi.models.create_branch_repo_option import CreateBranchRepoOption
+from gitea.models.create_branch_repo_option import CreateBranchRepoOption
 
 create_branch_repo_option = CreateBranchRepoOption(
     new_branch_name='new_branch_name4',

@@ -35,7 +35,7 @@
 ## Example
 
 ```python
-from giteaapi.models.type_4 import Type4
+from gitea.models.type_4 import Type4
 
 type_4 = Type4.DEBIAN
 ```

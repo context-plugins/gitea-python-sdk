@@ -24,8 +24,8 @@ Reaction contain one reaction
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.reaction import Reaction
-from giteaapi.models.user import User
+from gitea.models.reaction import Reaction
+from gitea.models.user import User
 
 reaction = Reaction(
     content='content6',

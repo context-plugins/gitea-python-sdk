@@ -30,7 +30,7 @@ Team represents a team in an organization
 ```python
 import jsonpickle
 
-from giteaapi.models.team import Team
+from gitea.models.team import Team
 
 team = Team(
     can_create_org_repo=False,

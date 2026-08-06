@@ -32,7 +32,7 @@ CreateRepoOption options when creating repository
 ```python
 import jsonpickle
 
-from giteaapi.models.create_repo_option import CreateRepoOption
+from gitea.models.create_repo_option import CreateRepoOption
 
 create_repo_option = CreateRepoOption(
     name='name4',

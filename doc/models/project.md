@@ -31,7 +31,7 @@ Project represents a project
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.project import Project
+from gitea.models.project import Project
 
 project = Project(
     closed_at=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

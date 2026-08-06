@@ -29,7 +29,7 @@ UserSettings represents user settings
 ```python
 import jsonpickle
 
-from giteaapi.models.user_settings import UserSettings
+from gitea.models.user_settings import UserSettings
 
 user_settings = UserSettings(
     description='description4',

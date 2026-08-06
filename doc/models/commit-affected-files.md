@@ -22,7 +22,7 @@ CommitAffectedFiles store information about files affected by the commit
 ```python
 import jsonpickle
 
-from giteaapi.models.commit_affected_files import CommitAffectedFiles
+from gitea.models.commit_affected_files import CommitAffectedFiles
 
 commit_affected_files = CommitAffectedFiles(
     filename='filename2',

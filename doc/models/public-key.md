@@ -31,7 +31,7 @@ PublicKey publickey is a user key to push code to repository
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.public_key import PublicKey
+from gitea.models.public_key import PublicKey
 
 public_key = PublicKey(
     created_at=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

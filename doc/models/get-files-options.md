@@ -21,7 +21,7 @@ GetFilesOptions options for retrieving metadate and content of multiple files
 ```python
 import jsonpickle
 
-from giteaapi.models.get_files_options import GetFilesOptions
+from gitea.models.get_files_options import GetFilesOptions
 
 get_files_options = GetFilesOptions(
     files=[

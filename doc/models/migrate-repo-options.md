@@ -43,7 +43,7 @@ this is used to interact with api v1
 ```python
 import jsonpickle
 
-from giteaapi.models.migrate_repo_options import MigrateRepoOptions
+from gitea.models.migrate_repo_options import MigrateRepoOptions
 
 migrate_repo_options = MigrateRepoOptions(
     clone_addr='clone_addr0',

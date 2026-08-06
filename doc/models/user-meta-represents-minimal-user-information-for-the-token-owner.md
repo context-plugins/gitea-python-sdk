@@ -20,7 +20,7 @@
 ```python
 import jsonpickle
 
-from giteaapi.models.user_meta_represents_minimal_user_information_for_the_token_owner import UserMetaRepresentsMinimalUserInformationForTheTokenOwner
+from gitea.models.user_meta_represents_minimal_user_information_for_the_token_owner import UserMetaRepresentsMinimalUserInformationForTheTokenOwner
 
 user_meta_represents_minimal_user_information_for_the_token_owner = UserMetaRepresentsMinimalUserInformationForTheTokenOwner(
     id=6,

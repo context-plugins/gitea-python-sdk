@@ -27,7 +27,7 @@ GitBlobResponse represents a git blob
 ```python
 import jsonpickle
 
-from giteaapi.models.git_blob_response import GitBlobResponse
+from gitea.models.git_blob_response import GitBlobResponse
 
 git_blob_response = GitBlobResponse(
     content='content8',

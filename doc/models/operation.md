@@ -21,7 +21,7 @@ indicates what to do with the file: "create" for creating a new file, "update" f
 ## Example
 
 ```python
-from giteaapi.models.operation import Operation
+from gitea.models.operation import Operation
 
 operation = Operation.DELETE
 ```

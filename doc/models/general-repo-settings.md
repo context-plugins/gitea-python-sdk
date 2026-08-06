@@ -26,7 +26,7 @@ GeneralRepoSettings contains global repository settings exposed by API
 ```python
 import jsonpickle
 
-from giteaapi.models.general_repo_settings import GeneralRepoSettings
+from gitea.models.general_repo_settings import GeneralRepoSettings
 
 general_repo_settings = GeneralRepoSettings(
     http_git_disabled=False,

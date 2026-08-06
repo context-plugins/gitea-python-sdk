@@ -31,7 +31,7 @@ ActionWorkflow represents a ActionWorkflow
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.action_workflow import ActionWorkflow
+from gitea.models.action_workflow import ActionWorkflow
 
 action_workflow = ActionWorkflow(
     badge_url='badge_url4',

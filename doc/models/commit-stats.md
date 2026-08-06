@@ -23,7 +23,7 @@ CommitStats is statistics for a RepoCommit
 ```python
 import jsonpickle
 
-from giteaapi.models.commit_stats import CommitStats
+from gitea.models.commit_stats import CommitStats
 
 commit_stats = CommitStats(
     additions=80,

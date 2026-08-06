@@ -27,8 +27,8 @@ NotificationSubject contains the notification subject (Issue/Pull/Commit)
 ```python
 import jsonpickle
 
-from giteaapi.models.notification_subject import NotificationSubject
-from giteaapi.models.state_6 import State6
+from gitea.models.notification_subject import NotificationSubject
+from gitea.models.state_6 import State6
 
 notification_subject = NotificationSubject(
     html_url='html_url4',

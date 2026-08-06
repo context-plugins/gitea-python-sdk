@@ -24,7 +24,7 @@ ExternalTracker represents settings for external tracker
 ```python
 import jsonpickle
 
-from giteaapi.models.external_tracker import ExternalTracker
+from gitea.models.external_tracker import ExternalTracker
 
 external_tracker = ExternalTracker(
     external_tracker_format='external_tracker_format4',

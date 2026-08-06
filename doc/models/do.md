@@ -19,7 +19,7 @@
 ## Example
 
 ```python
-from giteaapi.models.do import Do
+from gitea.models.do import Do
 
 do = Do.FASTFORWARDONLY
 ```

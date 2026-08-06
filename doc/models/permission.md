@@ -23,7 +23,7 @@ Permission represents a set of permissions
 ```python
 import jsonpickle
 
-from giteaapi.models.permission import Permission
+from gitea.models.permission import Permission
 
 permission = Permission(
     admin=False,

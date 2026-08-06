@@ -27,9 +27,9 @@ NodeInfo contains standardized way of exposing metadata about a server running o
 ```python
 import jsonpickle
 
-from giteaapi.models.node_info import NodeInfo
-from giteaapi.models.node_info_services import NodeInfoServices
-from giteaapi.models.node_info_software import NodeInfoSoftware
+from gitea.models.node_info import NodeInfo
+from gitea.models.node_info_services import NodeInfoServices
+from gitea.models.node_info_software import NodeInfoSoftware
 
 node_info = NodeInfo(
     metadata=jsonpickle.decode('{"key1":"val1","key2":"val2"}'),

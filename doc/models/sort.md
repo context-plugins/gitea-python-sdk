@@ -18,7 +18,7 @@
 ## Example
 
 ```python
-from giteaapi.models.sort import Sort
+from gitea.models.sort import Sort
 
 sort = Sort.LEASTINDEX
 ```

@@ -49,9 +49,9 @@ Issue represents an issue in a repository
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.attachment import Attachment
-from giteaapi.models.issue import Issue
-from giteaapi.models.user import User
+from gitea.models.attachment import Attachment
+from gitea.models.issue import Issue
+from gitea.models.user import User
 
 issue = Issue(
     assets=[

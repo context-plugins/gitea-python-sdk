@@ -31,7 +31,7 @@ Hook a hook is a web hook when one repository changed
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.hook import Hook
+from gitea.models.hook import Hook
 
 hook = Hook(
     active=False,

@@ -38,7 +38,7 @@ EditUserOption edit user options
 ```python
 import jsonpickle
 
-from giteaapi.models.edit_user_option import EditUserOption
+from gitea.models.edit_user_option import EditUserOption
 
 edit_user_option = EditUserOption(
     login_name='empty',

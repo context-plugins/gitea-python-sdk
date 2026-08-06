@@ -31,9 +31,9 @@ Note: `author` and `committer` are optional (if only one is given, it will be us
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.apply_diff_patch_file_options import ApplyDiffPatchFileOptions
-from giteaapi.models.commit_date_options import CommitDateOptions
-from giteaapi.models.identity import Identity
+from gitea.models.apply_diff_patch_file_options import ApplyDiffPatchFileOptions
+from gitea.models.commit_date_options import CommitDateOptions
+from gitea.models.identity import Identity
 
 apply_diff_patch_file_options = ApplyDiffPatchFileOptions(
     content='content0',

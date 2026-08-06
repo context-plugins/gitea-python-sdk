@@ -26,7 +26,7 @@ EditHookOption options when modify one hook
 ```python
 import jsonpickle
 
-from giteaapi.models.edit_hook_option import EditHookOption
+from gitea.models.edit_hook_option import EditHookOption
 
 edit_hook_option = EditHookOption(
     active=False,

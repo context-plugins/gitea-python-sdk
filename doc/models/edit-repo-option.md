@@ -58,7 +58,7 @@ EditRepoOption options when editing a repository's properties
 ```python
 import jsonpickle
 
-from giteaapi.models.edit_repo_option import EditRepoOption
+from gitea.models.edit_repo_option import EditRepoOption
 
 edit_repo_option = EditRepoOption(
     allow_fast_forward_only_merge=False,

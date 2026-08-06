@@ -30,8 +30,8 @@ Package represents a package
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.package import Package
-from giteaapi.models.user import User
+from gitea.models.package import Package
+from gitea.models.user import User
 
 package = Package(
     created_at=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

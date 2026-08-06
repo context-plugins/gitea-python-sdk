@@ -23,7 +23,7 @@ CreateWikiPageOptions form for creating wiki
 ```python
 import jsonpickle
 
-from giteaapi.models.create_wiki_page_options import CreateWikiPageOptions
+from gitea.models.create_wiki_page_options import CreateWikiPageOptions
 
 create_wiki_page_options = CreateWikiPageOptions(
     content_base_64='content_base648',

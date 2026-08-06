@@ -25,7 +25,7 @@ Email an email address belonging to a user
 ```python
 import jsonpickle
 
-from giteaapi.models.email import Email
+from gitea.models.email import Email
 
 email = Email(
     email='email0',

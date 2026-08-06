@@ -20,8 +20,8 @@
 ```python
 import jsonpickle
 
-from giteaapi.models.issue_config import IssueConfig
-from giteaapi.models.issue_config_contact_link import IssueConfigContactLink
+from gitea.models.issue_config import IssueConfig
+from gitea.models.issue_config_contact_link import IssueConfigContactLink
 
 issue_config = IssueConfig(
     blank_issues_enabled=False,

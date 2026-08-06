@@ -23,7 +23,7 @@ NodeInfoUsageUsers contains statistics about the users of this server
 ```python
 import jsonpickle
 
-from giteaapi.models.node_info_usage_users import NodeInfoUsageUsers
+from gitea.models.node_info_usage_users import NodeInfoUsageUsers
 
 node_info_usage_users = NodeInfoUsageUsers(
     active_halfyear=158,

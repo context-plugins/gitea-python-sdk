@@ -23,8 +23,8 @@ ActionWorkflowJobsResponse returns ActionWorkflowJobs
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.action_workflow_job import ActionWorkflowJob
-from giteaapi.models.action_workflow_jobs_response import ActionWorkflowJobsResponse
+from gitea.models.action_workflow_job import ActionWorkflowJob
+from gitea.models.action_workflow_jobs_response import ActionWorkflowJobsResponse
 
 action_workflow_jobs_response = ActionWorkflowJobsResponse(
     jobs=[

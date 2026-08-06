@@ -19,7 +19,7 @@ closed StateClosed pr is closed
 ## Example
 
 ```python
-from giteaapi.models.state_4 import State4
+from gitea.models.state_4 import State4
 
 state_4 = State4.OPEN
 ```

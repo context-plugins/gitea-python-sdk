@@ -23,8 +23,8 @@ ActionTaskResponse returns a ActionTask
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.action_task import ActionTask
-from giteaapi.models.action_task_response import ActionTaskResponse
+from gitea.models.action_task import ActionTask
+from gitea.models.action_task_response import ActionTaskResponse
 
 action_task_response = ActionTaskResponse(
     total_count=14,

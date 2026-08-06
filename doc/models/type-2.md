@@ -23,7 +23,7 @@ Repository NotifySubjectRepository a repository is subject of an notification
 ## Example
 
 ```python
-from giteaapi.models.type_2 import Type2
+from gitea.models.type_2 import Type2
 
 type_2 = Type2.COMMIT
 ```

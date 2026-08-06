@@ -22,10 +22,10 @@ Documentation for accessing and setting credentials for Token.
 You must provide credentials in the client as shown in the following code snippet.
 
 ```python
-from giteaapi.giteaapi_client import GiteaapiClient
-from giteaapi.http.auth.token import TokenCredentials
+from gitea.gitea_client import GiteaClient
+from gitea.http.auth.token import TokenCredentials
 
-client = GiteaapiClient(
+client = GiteaClient(
     token_credentials=TokenCredentials(
         token='token'
     )

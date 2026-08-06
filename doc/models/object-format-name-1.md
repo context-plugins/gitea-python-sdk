@@ -19,7 +19,7 @@ sha256 ObjectFormatSHA256
 ## Example
 
 ```python
-from giteaapi.models.object_format_name_1 import ObjectFormatName1
+from gitea.models.object_format_name_1 import ObjectFormatName1
 
 object_format_name_1 = ObjectFormatName1.SHA1
 ```

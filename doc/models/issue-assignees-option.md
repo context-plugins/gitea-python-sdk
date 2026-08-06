@@ -21,7 +21,7 @@ IssueAssigneesOption options for adding/removing issue assignees
 ```python
 import jsonpickle
 
-from giteaapi.models.issue_assignees_option import IssueAssigneesOption
+from gitea.models.issue_assignees_option import IssueAssigneesOption
 
 issue_assignees_option = IssueAssigneesOption(
     assignees=[

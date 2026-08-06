@@ -27,8 +27,8 @@ CreateHookOption options when create a hook
 ```python
 import jsonpickle
 
-from giteaapi.models.create_hook_option import CreateHookOption
-from giteaapi.models.mtype import Type
+from gitea.models.create_hook_option import CreateHookOption
+from gitea.models.mtype import Type
 
 create_hook_option = CreateHookOption(
     config={

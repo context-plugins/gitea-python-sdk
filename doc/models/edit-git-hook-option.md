@@ -21,7 +21,7 @@ EditGitHookOption options when modifying one Git hook
 ```python
 import jsonpickle
 
-from giteaapi.models.edit_git_hook_option import EditGitHookOption
+from gitea.models.edit_git_hook_option import EditGitHookOption
 
 edit_git_hook_option = EditGitHookOption(
     content='content6',

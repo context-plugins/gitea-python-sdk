@@ -23,7 +23,7 @@ EditTagProtectionOption options for editing a tag protection
 ```python
 import jsonpickle
 
-from giteaapi.models.edit_tag_protection_option import EditTagProtectionOption
+from gitea.models.edit_tag_protection_option import EditTagProtectionOption
 
 edit_tag_protection_option = EditTagProtectionOption(
     name_pattern='name_pattern6',

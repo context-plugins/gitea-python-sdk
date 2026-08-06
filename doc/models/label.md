@@ -27,7 +27,7 @@ Label a label to an issue or a pr
 ```python
 import jsonpickle
 
-from giteaapi.models.label import Label
+from gitea.models.label import Label
 
 label = Label(
     color='00aabb',

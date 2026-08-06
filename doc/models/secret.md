@@ -24,7 +24,7 @@ Secret represents a secret
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.secret import Secret
+from gitea.models.secret import Secret
 
 secret = Secret(
     created_at=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

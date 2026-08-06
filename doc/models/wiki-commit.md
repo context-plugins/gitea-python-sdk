@@ -24,8 +24,8 @@ WikiCommit page commit/revision
 ```python
 import jsonpickle
 
-from giteaapi.models.commit_user_contains_information_of_a_user_in_the_context_of_a_commit import CommitUserContainsInformationOfAUserInTheContextOfACommit
-from giteaapi.models.wiki_commit import WikiCommit
+from gitea.models.commit_user_contains_information_of_a_user_in_the_context_of_a_commit import CommitUserContainsInformationOfAUserInTheContextOfACommit
+from gitea.models.wiki_commit import WikiCommit
 
 wiki_commit = WikiCommit(
     author=CommitUserContainsInformationOfAUserInTheContextOfACommit(

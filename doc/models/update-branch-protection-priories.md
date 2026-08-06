@@ -21,7 +21,7 @@ UpdateBranchProtectionPriories a list to update the branch protection rule prior
 ```python
 import jsonpickle
 
-from giteaapi.models.update_branch_protection_priories import UpdateBranchProtectionPriories
+from gitea.models.update_branch_protection_priories import UpdateBranchProtectionPriories
 
 update_branch_protection_priories = UpdateBranchProtectionPriories(
     ids=[

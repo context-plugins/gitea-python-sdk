@@ -24,7 +24,7 @@ LabelTemplate info of a Label template
 ```python
 import jsonpickle
 
-from giteaapi.models.label_template import LabelTemplate
+from gitea.models.label_template import LabelTemplate
 
 label_template = LabelTemplate(
     color='00aabb',

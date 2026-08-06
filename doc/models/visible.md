@@ -15,7 +15,7 @@
 ## Example
 
 ```python
-from giteaapi.models.visible import Visible
+from gitea.models.visible import Visible
 
 visible = Visible.FORM
 ```

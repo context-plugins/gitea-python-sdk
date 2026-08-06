@@ -20,8 +20,8 @@
 ```python
 import jsonpickle
 
-from giteaapi.models.team import Team
-from giteaapi.models.team_search_response import TeamSearchResponse
+from gitea.models.team import Team
+from gitea.models.team_search_response import TeamSearchResponse
 
 team_search_response = TeamSearchResponse(
     data=[

@@ -29,7 +29,7 @@ UserSettingsOptions represents options to change user settings
 ```python
 import jsonpickle
 
-from giteaapi.models.user_settings_options import UserSettingsOptions
+from gitea.models.user_settings_options import UserSettingsOptions
 
 user_settings_options = UserSettingsOptions(
     description='description4',

@@ -24,7 +24,7 @@ NodeInfoSoftware contains Metadata about server software in use
 ```python
 import jsonpickle
 
-from giteaapi.models.node_info_software import NodeInfoSoftware
+from gitea.models.node_info_software import NodeInfoSoftware
 
 node_info_software = NodeInfoSoftware(
     homepage='homepage8',

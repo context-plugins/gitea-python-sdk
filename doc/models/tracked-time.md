@@ -28,10 +28,10 @@ TrackedTime worked time for an issue / pr
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.attachment import Attachment
-from giteaapi.models.issue import Issue
-from giteaapi.models.tracked_time import TrackedTime
-from giteaapi.models.user import User
+from gitea.models.attachment import Attachment
+from gitea.models.issue import Issue
+from gitea.models.tracked_time import TrackedTime
+from gitea.models.user import User
 
 tracked_time = TrackedTime(
     created=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

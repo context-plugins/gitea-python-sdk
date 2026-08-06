@@ -23,7 +23,7 @@ IssueMeta basic issue information
 ```python
 import jsonpickle
 
-from giteaapi.models.issue_meta import IssueMeta
+from gitea.models.issue_meta import IssueMeta
 
 issue_meta = IssueMeta(
     index=236,

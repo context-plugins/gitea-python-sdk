@@ -25,7 +25,7 @@ LicensesInfo contains information about a License
 ```python
 import jsonpickle
 
-from giteaapi.models.license_template_info import LicenseTemplateInfo
+from gitea.models.license_template_info import LicenseTemplateInfo
 
 license_template_info = LicenseTemplateInfo(
     body='body2',

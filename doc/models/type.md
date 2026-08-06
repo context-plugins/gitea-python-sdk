@@ -23,7 +23,7 @@
 ## Example
 
 ```python
-from giteaapi.models.mtype import Type
+from gitea.models.mtype import Type
 
 mtype = Type.MSTEAMS
 ```

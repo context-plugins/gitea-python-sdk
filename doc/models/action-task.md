@@ -34,7 +34,7 @@ ActionTask represents a ActionTask
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.action_task import ActionTask
+from gitea.models.action_task import ActionTask
 
 action_task = ActionTask(
     created_at=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

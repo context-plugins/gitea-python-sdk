@@ -22,7 +22,7 @@ IssueDeadline represents an issue deadline
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.issue_deadline import IssueDeadline
+from gitea.models.issue_deadline import IssueDeadline
 
 issue_deadline = IssueDeadline(
     due_date=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

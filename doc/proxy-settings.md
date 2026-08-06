@@ -15,10 +15,10 @@ Represents the proxy server configurations for API calls.
 ## Usage Example
 
 ```python
-from giteaapi.giteaapi_client import GiteaapiClient
-from giteaapi.http.proxy_settings import ProxySettings
+from gitea.gitea_client import GiteaClient
+from gitea.http.proxy_settings import ProxySettings
 
-client = GiteaapiClient(
+client = GiteaClient(
     proxy_settings=ProxySettings(
         address='http://localhost',
         port=8888,

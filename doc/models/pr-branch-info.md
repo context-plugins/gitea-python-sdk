@@ -25,8 +25,8 @@ PRBranchInfo information about a branch
 ```python
 import jsonpickle
 
-from giteaapi.models.pr_branch_info import PrBranchInfo
-from giteaapi.models.repository import Repository
+from gitea.models.pr_branch_info import PrBranchInfo
+from gitea.models.repository import Repository
 
 pr_branch_info = PrBranchInfo(
     label='label4',

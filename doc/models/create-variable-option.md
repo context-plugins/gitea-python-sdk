@@ -22,7 +22,7 @@ CreateVariableOption the option when creating variable
 ```python
 import jsonpickle
 
-from giteaapi.models.create_variable_option import CreateVariableOption
+from gitea.models.create_variable_option import CreateVariableOption
 
 create_variable_option = CreateVariableOption(
     value='value0',

@@ -32,10 +32,10 @@
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.activity import Activity
-from giteaapi.models.attachment import Attachment
-from giteaapi.models.comment import Comment
-from giteaapi.models.user import User
+from gitea.models.activity import Activity
+from gitea.models.attachment import Attachment
+from gitea.models.comment import Comment
+from gitea.models.user import User
 
 activity = Activity(
     act_user=User(

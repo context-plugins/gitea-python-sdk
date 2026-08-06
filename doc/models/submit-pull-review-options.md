@@ -22,8 +22,8 @@ SubmitPullReviewOptions are options to submit a pending pull request review
 ```python
 import jsonpickle
 
-from giteaapi.models.event import Event
-from giteaapi.models.submit_pull_review_options import SubmitPullReviewOptions
+from gitea.models.event import Event
+from gitea.models.submit_pull_review_options import SubmitPullReviewOptions
 
 submit_pull_review_options = SubmitPullReviewOptions(
     body='body6',

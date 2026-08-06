@@ -25,7 +25,7 @@ EditLabelOption options for editing a label
 ```python
 import jsonpickle
 
-from giteaapi.models.edit_label_option import EditLabelOption
+from gitea.models.edit_label_option import EditLabelOption
 
 edit_label_option = EditLabelOption(
     color='#00aabb',

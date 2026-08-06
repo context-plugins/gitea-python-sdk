@@ -27,7 +27,7 @@ PackageFile represents a package file
 ```python
 import jsonpickle
 
-from giteaapi.models.package_file import PackageFile
+from gitea.models.package_file import PackageFile
 
 package_file = PackageFile(
     id=124,

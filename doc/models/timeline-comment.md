@@ -50,11 +50,11 @@ TimelineComment represents a timeline comment (comment of any type) on a commit 
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.attachment import Attachment
-from giteaapi.models.issue import Issue
-from giteaapi.models.team import Team
-from giteaapi.models.timeline_comment import TimelineComment
-from giteaapi.models.user import User
+from gitea.models.attachment import Attachment
+from gitea.models.issue import Issue
+from gitea.models.team import Team
+from gitea.models.timeline_comment import TimelineComment
+from gitea.models.user import User
 
 timeline_comment = TimelineComment(
     assignee=User(

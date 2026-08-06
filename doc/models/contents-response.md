@@ -40,8 +40,8 @@ ContentsResponse contains information about a repo's entry's (dir, file, symlink
 ```python
 import jsonpickle
 
-from giteaapi.models.contents_response import ContentsResponse
-from giteaapi.models.file_links_response import FileLinksResponse
+from gitea.models.contents_response import ContentsResponse
+from gitea.models.file_links_response import FileLinksResponse
 
 contents_response = ContentsResponse(
     links=FileLinksResponse(

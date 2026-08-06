@@ -23,7 +23,7 @@ CommitDateOptions store dates for GIT_AUTHOR_DATE and GIT_COMMITTER_DATE
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.commit_date_options import CommitDateOptions
+from gitea.models.commit_date_options import CommitDateOptions
 
 commit_date_options = CommitDateOptions(
     author=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

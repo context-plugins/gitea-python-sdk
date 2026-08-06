@@ -32,7 +32,7 @@ EditPullRequestOption options when modify pull request
 ```python
 import jsonpickle
 
-from giteaapi.models.edit_pull_request_option import EditPullRequestOption
+from gitea.models.edit_pull_request_option import EditPullRequestOption
 
 edit_pull_request_option = EditPullRequestOption(
     allow_maintainer_edit=False,

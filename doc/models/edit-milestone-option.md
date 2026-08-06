@@ -25,8 +25,8 @@ EditMilestoneOption options for editing a milestone
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.edit_milestone_option import EditMilestoneOption
-from giteaapi.models.state_3 import State3
+from gitea.models.edit_milestone_option import EditMilestoneOption
+from gitea.models.state_3 import State3
 
 edit_milestone_option = EditMilestoneOption(
     description='description0',

@@ -26,7 +26,7 @@ Cron represents a Cron task
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.cron import Cron
+from gitea.models.cron import Cron
 
 cron = Cron(
     exec_times=192,

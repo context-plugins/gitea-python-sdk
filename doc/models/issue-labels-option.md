@@ -21,7 +21,7 @@ IssueLabelsOption a collection of labels
 ```python
 import jsonpickle
 
-from giteaapi.models.issue_labels_option import IssueLabelsOption
+from gitea.models.issue_labels_option import IssueLabelsOption
 
 issue_labels_option = IssueLabelsOption(
     labels=[

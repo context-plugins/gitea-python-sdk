@@ -32,7 +32,7 @@ EditIssueOption options for editing an issue
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.edit_issue_option import EditIssueOption
+from gitea.models.edit_issue_option import EditIssueOption
 
 edit_issue_option = EditIssueOption(
     assignee='assignee6',

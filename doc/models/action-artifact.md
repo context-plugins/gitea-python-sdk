@@ -31,7 +31,7 @@ ActionArtifact represents a ActionArtifact
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.action_artifact import ActionArtifact
+from gitea.models.action_artifact import ActionArtifact
 
 action_artifact = ActionArtifact(
     archive_download_url='archive_download_url6',

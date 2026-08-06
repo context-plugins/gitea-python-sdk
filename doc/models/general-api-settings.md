@@ -25,7 +25,7 @@ GeneralAPISettings contains global api settings exposed by it
 ```python
 import jsonpickle
 
-from giteaapi.models.general_api_settings import GeneralApiSettings
+from gitea.models.general_api_settings import GeneralApiSettings
 
 general_api_settings = GeneralApiSettings(
     default_git_trees_per_page=134,

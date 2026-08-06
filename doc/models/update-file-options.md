@@ -33,9 +33,9 @@ Note: `author` and `committer` are optional (if only one is given, it will be us
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.commit_date_options import CommitDateOptions
-from giteaapi.models.identity import Identity
-from giteaapi.models.update_file_options import UpdateFileOptions
+from gitea.models.commit_date_options import CommitDateOptions
+from gitea.models.identity import Identity
+from gitea.models.update_file_options import UpdateFileOptions
 
 update_file_options = UpdateFileOptions(
     content='content2',

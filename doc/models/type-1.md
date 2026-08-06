@@ -18,7 +18,7 @@
 ## Example
 
 ```python
-from giteaapi.models.type_1 import Type1
+from gitea.models.type_1 import Type1
 
 type_1 = Type1.TEXTAREA
 ```

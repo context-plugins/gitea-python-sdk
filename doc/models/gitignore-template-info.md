@@ -22,7 +22,7 @@ GitignoreTemplateInfo name and text of a gitignore template
 ```python
 import jsonpickle
 
-from giteaapi.models.gitignore_template_info import GitignoreTemplateInfo
+from gitea.models.gitignore_template_info import GitignoreTemplateInfo
 
 gitignore_template_info = GitignoreTemplateInfo(
     name='name4',

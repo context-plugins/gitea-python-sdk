@@ -31,7 +31,7 @@ CreateIssueOption options to create one issue
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.create_issue_option import CreateIssueOption
+from gitea.models.create_issue_option import CreateIssueOption
 
 create_issue_option = CreateIssueOption(
     title='title6',

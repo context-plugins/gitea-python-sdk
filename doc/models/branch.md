@@ -29,9 +29,9 @@ Branch represents a repository branch
 ```python
 import jsonpickle
 
-from giteaapi.models.branch import Branch
-from giteaapi.models.payload_commit import PayloadCommit
-from giteaapi.models.payload_user import PayloadUser
+from gitea.models.branch import Branch
+from gitea.models.payload_commit import PayloadCommit
+from gitea.models.payload_user import PayloadUser
 
 branch = Branch(
     commit=PayloadCommit(

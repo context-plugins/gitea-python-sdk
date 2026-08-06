@@ -24,7 +24,7 @@ AddTimeOption options for adding time to an issue
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.add_time_option import AddTimeOption
+from gitea.models.add_time_option import AddTimeOption
 
 add_time_option = AddTimeOption(
     time=108,

@@ -22,7 +22,7 @@ DismissPullReviewOptions are options to dismiss a pull request review
 ```python
 import jsonpickle
 
-from giteaapi.models.dismiss_pull_review_options import DismissPullReviewOptions
+from gitea.models.dismiss_pull_review_options import DismissPullReviewOptions
 
 dismiss_pull_review_options = DismissPullReviewOptions(
     message='message8',

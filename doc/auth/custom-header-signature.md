@@ -22,10 +22,10 @@ Documentation for accessing and setting credentials for AuthorizationHeaderToken
 You must provide credentials in the client as shown in the following code snippet.
 
 ```python
-from giteaapi.giteaapi_client import GiteaapiClient
-from giteaapi.http.auth.authorization_header_token import AuthorizationHeaderTokenCredentials
+from gitea.gitea_client import GiteaClient
+from gitea.http.auth.authorization_header_token import AuthorizationHeaderTokenCredentials
 
-client = GiteaapiClient(
+client = GiteaClient(
     authorization_header_token_credentials=AuthorizationHeaderTokenCredentials(
         authorization='Authorization'
     )

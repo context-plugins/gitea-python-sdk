@@ -27,7 +27,7 @@ ActionWorkflowStep represents a step of a WorkflowJob
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.action_workflow_step import ActionWorkflowStep
+from gitea.models.action_workflow_step import ActionWorkflowStep
 
 action_workflow_step = ActionWorkflowStep(
     completed_at=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

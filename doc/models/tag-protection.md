@@ -27,7 +27,7 @@ TagProtection represents a tag protection
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.tag_protection import TagProtection
+from gitea.models.tag_protection import TagProtection
 
 tag_protection = TagProtection(
     created_at=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

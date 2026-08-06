@@ -30,7 +30,7 @@ DeployKey a deploy key
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.deploy_key import DeployKey
+from gitea.models.deploy_key import DeployKey
 
 deploy_key = DeployKey(
     created_at=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

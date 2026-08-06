@@ -25,7 +25,7 @@ OrganizationPermissions list different users permissions on an organization
 ```python
 import jsonpickle
 
-from giteaapi.models.organization_permissions import OrganizationPermissions
+from gitea.models.organization_permissions import OrganizationPermissions
 
 organization_permissions = OrganizationPermissions(
     can_create_repository=False,

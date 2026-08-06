@@ -23,7 +23,7 @@ CreateKeyOption options when creating a key
 ```python
 import jsonpickle
 
-from giteaapi.models.create_key_option import CreateKeyOption
+from gitea.models.create_key_option import CreateKeyOption
 
 create_key_option = CreateKeyOption(
     key='key8',

@@ -25,8 +25,8 @@ PayloadCommitVerification represents the GPG verification of a commit
 ```python
 import jsonpickle
 
-from giteaapi.models.payload_commit_verification import PayloadCommitVerification
-from giteaapi.models.payload_user import PayloadUser
+from gitea.models.payload_commit_verification import PayloadCommitVerification
+from gitea.models.payload_user import PayloadUser
 
 payload_commit_verification = PayloadCommitVerification(
     payload='payload4',

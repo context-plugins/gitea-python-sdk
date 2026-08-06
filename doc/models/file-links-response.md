@@ -23,7 +23,7 @@ FileLinksResponse contains the links for a repo's file
 ```python
 import jsonpickle
 
-from giteaapi.models.file_links_response import FileLinksResponse
+from gitea.models.file_links_response import FileLinksResponse
 
 file_links_response = FileLinksResponse(
     git='git0',

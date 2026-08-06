@@ -28,11 +28,11 @@ CombinedStatus holds the combined state of several statuses for a single commit
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.combined_status import CombinedStatus
-from giteaapi.models.commit_status import CommitStatus
-from giteaapi.models.repository import Repository
-from giteaapi.models.state import State
-from giteaapi.models.user import User
+from gitea.models.combined_status import CombinedStatus
+from gitea.models.commit_status import CommitStatus
+from gitea.models.repository import Repository
+from gitea.models.state import State
+from gitea.models.user import User
 
 combined_status = CombinedStatus(
     commit_url='commit_url0',

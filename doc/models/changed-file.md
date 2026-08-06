@@ -29,7 +29,7 @@ ChangedFile store information about files affected by the pull request
 ```python
 import jsonpickle
 
-from giteaapi.models.changed_file import ChangedFile
+from gitea.models.changed_file import ChangedFile
 
 changed_file = ChangedFile(
     additions=124,

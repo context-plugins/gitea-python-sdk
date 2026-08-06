@@ -22,7 +22,7 @@
 ## Example
 
 ```python
-from giteaapi.models.service import Service
+from gitea.models.service import Service
 
 service = Service.CODEBASE
 ```

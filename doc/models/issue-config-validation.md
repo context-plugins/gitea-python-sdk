@@ -20,7 +20,7 @@
 ```python
 import jsonpickle
 
-from giteaapi.models.issue_config_validation import IssueConfigValidation
+from gitea.models.issue_config_validation import IssueConfigValidation
 
 issue_config_validation = IssueConfigValidation(
     message='message6',

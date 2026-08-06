@@ -21,7 +21,7 @@ DeleteEmailOption options when deleting email addresses
 ```python
 import jsonpickle
 
-from giteaapi.models.delete_email_option import DeleteEmailOption
+from gitea.models.delete_email_option import DeleteEmailOption
 
 delete_email_option = DeleteEmailOption(
     emails=[

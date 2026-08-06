@@ -21,7 +21,7 @@
 ```python
 import jsonpickle
 
-from giteaapi.models.git_object_represents_a_git_object import GitObjectRepresentsAGitObject
+from gitea.models.git_object_represents_a_git_object import GitObjectRepresentsAGitObject
 
 git_object_represents_a_git_object = GitObjectRepresentsAGitObject(
     sha='sha4',

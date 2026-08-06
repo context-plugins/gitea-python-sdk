@@ -27,7 +27,7 @@ CreateReleaseOption options when creating a release
 ```python
 import jsonpickle
 
-from giteaapi.models.create_release_option import CreateReleaseOption
+from gitea.models.create_release_option import CreateReleaseOption
 
 create_release_option = CreateReleaseOption(
     tag_name='tag_name2',

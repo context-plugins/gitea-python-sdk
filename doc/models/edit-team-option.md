@@ -28,8 +28,8 @@ EditTeamOption options for editing a team
 ```python
 import jsonpickle
 
-from giteaapi.models.edit_team_option import EditTeamOption
-from giteaapi.models.permission_3 import Permission3
+from gitea.models.edit_team_option import EditTeamOption
+from gitea.models.permission_3 import Permission3
 
 edit_team_option = EditTeamOption(
     name='name4',

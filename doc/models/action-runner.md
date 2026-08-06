@@ -27,8 +27,8 @@ ActionRunner represents a Runner
 ```python
 import jsonpickle
 
-from giteaapi.models.action_runner import ActionRunner
-from giteaapi.models.action_runner_label import ActionRunnerLabel
+from gitea.models.action_runner import ActionRunner
+from gitea.models.action_runner_label import ActionRunnerLabel
 
 action_runner = ActionRunner(
     busy=False,

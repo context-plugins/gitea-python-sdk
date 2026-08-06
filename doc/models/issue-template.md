@@ -29,10 +29,10 @@ IssueTemplate represents an issue template for a repository
 ```python
 import jsonpickle
 
-from giteaapi.models.issue_form_field import IssueFormField
-from giteaapi.models.issue_template import IssueTemplate
-from giteaapi.models.type_1 import Type1
-from giteaapi.models.visible import Visible
+from gitea.models.issue_form_field import IssueFormField
+from gitea.models.issue_template import IssueTemplate
+from gitea.models.type_1 import Type1
+from gitea.models.visible import Visible
 
 issue_template = IssueTemplate(
     about='about0',

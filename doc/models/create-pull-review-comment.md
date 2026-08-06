@@ -24,7 +24,7 @@ CreatePullReviewComment represent a review comment for creation api
 ```python
 import jsonpickle
 
-from giteaapi.models.create_pull_review_comment import CreatePullReviewComment
+from gitea.models.create_pull_review_comment import CreatePullReviewComment
 
 create_pull_review_comment = CreatePullReviewComment(
     body='body4',

@@ -21,7 +21,7 @@ NotificationCount number of unread notifications
 ```python
 import jsonpickle
 
-from giteaapi.models.notification_count import NotificationCount
+from gitea.models.notification_count import NotificationCount
 
 notification_count = NotificationCount(
     new=106,

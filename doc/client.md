@@ -5,6 +5,7 @@ The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
+| default_host | `str` | *Default*: `"www.example.com/api/v1"` |
 | environment | [`Environment`](../README.md#environments) | The API environment. <br> **Default: `Environment.PRODUCTION`** |
 | http_client_instance | `Union[Session, HttpClientProvider]` | The Http Client passed from the sdk user for making requests |
 | override_http_client_configuration | `bool` | The value which determines to override properties of the passed Http Client from the sdk user |
@@ -31,20 +32,20 @@ The API client can be initialized as follows:
 ```python
 import logging
 
-from giteaapi.configuration import Environment
-from giteaapi.giteaapi_client import GiteaapiClient
-from giteaapi.http.auth.access_token import AccessTokenCredentials
-from giteaapi.http.auth.authorization_header_token import AuthorizationHeaderTokenCredentials
-from giteaapi.http.auth.basic_auth import BasicAuthCredentials
-from giteaapi.http.auth.sudo_header import SudoHeaderCredentials
-from giteaapi.http.auth.sudo_param import SudoParamCredentials
-from giteaapi.http.auth.token import TokenCredentials
-from giteaapi.http.auth.totp_header import TotpHeaderCredentials
-from giteaapi.logging.configuration.api_logging_configuration import LoggingConfiguration
-from giteaapi.logging.configuration.api_logging_configuration import RequestLoggingConfiguration
-from giteaapi.logging.configuration.api_logging_configuration import ResponseLoggingConfiguration
+from gitea.configuration import Environment
+from gitea.gitea_client import GiteaClient
+from gitea.http.auth.access_token import AccessTokenCredentials
+from gitea.http.auth.authorization_header_token import AuthorizationHeaderTokenCredentials
+from gitea.http.auth.basic_auth import BasicAuthCredentials
+from gitea.http.auth.sudo_header import SudoHeaderCredentials
+from gitea.http.auth.sudo_param import SudoParamCredentials
+from gitea.http.auth.token import TokenCredentials
+from gitea.http.auth.totp_header import TotpHeaderCredentials
+from gitea.logging.configuration.api_logging_configuration import LoggingConfiguration
+from gitea.logging.configuration.api_logging_configuration import RequestLoggingConfiguration
+from gitea.logging.configuration.api_logging_configuration import ResponseLoggingConfiguration
 
-client = GiteaapiClient(
+client = GiteaClient(
     access_token_credentials=AccessTokenCredentials(
         access_token='access_token'
     ),
@@ -68,6 +69,7 @@ client = GiteaapiClient(
         token='token'
     ),
     environment=Environment.PRODUCTION,
+    default_host='www.example.com/api/v1',
     logging_configuration=LoggingConfiguration(
         log_level=logging.INFO,
         request_logging_config=RequestLoggingConfiguration(
@@ -83,10 +85,10 @@ client = GiteaapiClient(
 ## Environment-Based Client Initialization
 
 ```python
-from giteaapi.giteaapi_client import GiteaapiClient
+from gitea.gitea_client import GiteaClient
 
 # Specify the path to your .env file if it’s located outside the project’s root directory.
-client = GiteaapiClient.from_environment(dotenv_path='/path/to/.env')
+client = GiteaClient.from_environment(dotenv_path='/path/to/.env')
 ```
 
 See the [Environment-Based Client Initialization](../doc/environment-based-client-initialization.md) section for details.

@@ -17,7 +17,7 @@ State indicates the updated state of the milestone
 ## Example
 
 ```python
-from giteaapi.models.state_3 import State3
+from gitea.models.state_3 import State3
 
 state_3 = State3.OPEN
 ```

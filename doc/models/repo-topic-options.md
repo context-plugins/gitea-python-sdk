@@ -21,7 +21,7 @@ RepoTopicOptions a collection of repo topic names
 ```python
 import jsonpickle
 
-from giteaapi.models.repo_topic_options import RepoTopicOptions
+from gitea.models.repo_topic_options import RepoTopicOptions
 
 repo_topic_options = RepoTopicOptions(
     topics=[

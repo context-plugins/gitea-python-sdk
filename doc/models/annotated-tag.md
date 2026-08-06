@@ -27,9 +27,9 @@ AnnotatedTag represents an annotated tag
 ```python
 import jsonpickle
 
-from giteaapi.models.annotated_tag import AnnotatedTag
-from giteaapi.models.annotated_tag_object import AnnotatedTagObject
-from giteaapi.models.commit_user_contains_information_of_a_user_in_the_context_of_a_commit import CommitUserContainsInformationOfAUserInTheContextOfACommit
+from gitea.models.annotated_tag import AnnotatedTag
+from gitea.models.annotated_tag_object import AnnotatedTagObject
+from gitea.models.commit_user_contains_information_of_a_user_in_the_context_of_a_commit import CommitUserContainsInformationOfAUserInTheContextOfACommit
 
 annotated_tag = AnnotatedTag(
     message='message4',

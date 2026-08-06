@@ -23,7 +23,7 @@ CreateTagProtectionOption options for creating a tag protection
 ```python
 import jsonpickle
 
-from giteaapi.models.create_tag_protection_option import CreateTagProtectionOption
+from gitea.models.create_tag_protection_option import CreateTagProtectionOption
 
 create_tag_protection_option = CreateTagProtectionOption(
     name_pattern='name_pattern4',

@@ -21,7 +21,7 @@ CreateEmailOption options when creating email addresses
 ```python
 import jsonpickle
 
-from giteaapi.models.create_email_option import CreateEmailOption
+from gitea.models.create_email_option import CreateEmailOption
 
 create_email_option = CreateEmailOption(
     emails=[

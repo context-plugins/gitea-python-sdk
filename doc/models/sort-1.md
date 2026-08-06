@@ -20,7 +20,7 @@
 ## Example
 
 ```python
-from giteaapi.models.sort_1 import Sort1
+from gitea.models.sort_1 import Sort1
 
 sort_1 = Sort1.MOSTCOMMENT
 ```

@@ -32,7 +32,7 @@ CreateUserOption create user options
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.create_user_option import CreateUserOption
+from gitea.models.create_user_option import CreateUserOption
 
 create_user_option = CreateUserOption(
     email='email8',

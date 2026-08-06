@@ -21,7 +21,7 @@ RenameBranchRepoOption options when renaming a branch in a repository
 ```python
 import jsonpickle
 
-from giteaapi.models.rename_branch_repo_option import RenameBranchRepoOption
+from gitea.models.rename_branch_repo_option import RenameBranchRepoOption
 
 rename_branch_repo_option = RenameBranchRepoOption(
     name='name2',

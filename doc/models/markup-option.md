@@ -25,7 +25,7 @@ MarkupOption markup options
 ```python
 import jsonpickle
 
-from giteaapi.models.markup_option import MarkupOption
+from gitea.models.markup_option import MarkupOption
 
 markup_option = MarkupOption(
     context='Context8',

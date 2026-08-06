@@ -52,7 +52,7 @@ EditBranchProtectionOption options for editing a branch protection
 ```python
 import jsonpickle
 
-from giteaapi.models.edit_branch_protection_option import EditBranchProtectionOption
+from gitea.models.edit_branch_protection_option import EditBranchProtectionOption
 
 edit_branch_protection_option = EditBranchProtectionOption(
     approvals_whitelist_teams=[

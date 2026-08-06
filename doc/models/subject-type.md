@@ -17,7 +17,7 @@
 ## Example
 
 ```python
-from giteaapi.models.subject_type import SubjectType
+from gitea.models.subject_type import SubjectType
 
 subject_type = SubjectType.COMMIT
 ```

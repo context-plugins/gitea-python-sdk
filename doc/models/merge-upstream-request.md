@@ -20,7 +20,7 @@
 ```python
 import jsonpickle
 
-from giteaapi.models.merge_upstream_request import MergeUpstreamRequest
+from gitea.models.merge_upstream_request import MergeUpstreamRequest
 
 merge_upstream_request = MergeUpstreamRequest(
     branch='branch6',

@@ -21,7 +21,7 @@ RenameUserOption options when renaming a user
 ```python
 import jsonpickle
 
-from giteaapi.models.rename_user_option import RenameUserOption
+from gitea.models.rename_user_option import RenameUserOption
 
 rename_user_option = RenameUserOption(
     new_username='new_username2',

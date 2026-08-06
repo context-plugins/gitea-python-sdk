@@ -21,7 +21,7 @@ UserBadgeOption options for link between users and badges
 ```python
 import jsonpickle
 
-from giteaapi.models.user_badge_option import UserBadgeOption
+from gitea.models.user_badge_option import UserBadgeOption
 
 user_badge_option = UserBadgeOption(
     badge_slugs=[

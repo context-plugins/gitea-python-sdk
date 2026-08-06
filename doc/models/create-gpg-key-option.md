@@ -22,7 +22,7 @@ CreateGPGKeyOption options create user GPG key
 ```python
 import jsonpickle
 
-from giteaapi.models.create_gpg_key_option import CreateGpgKeyOption
+from gitea.models.create_gpg_key_option import CreateGpgKeyOption
 
 create_gpg_key_option = CreateGpgKeyOption(
     armored_public_key='armored_public_key8',

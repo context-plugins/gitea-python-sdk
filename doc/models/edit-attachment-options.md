@@ -21,7 +21,7 @@ EditAttachmentOptions options for editing attachments
 ```python
 import jsonpickle
 
-from giteaapi.models.edit_attachment_options import EditAttachmentOptions
+from gitea.models.edit_attachment_options import EditAttachmentOptions
 
 edit_attachment_options = EditAttachmentOptions(
     name='name6',

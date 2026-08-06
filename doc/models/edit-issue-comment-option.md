@@ -21,7 +21,7 @@ EditIssueCommentOption options for editing a comment
 ```python
 import jsonpickle
 
-from giteaapi.models.edit_issue_comment_option import EditIssueCommentOption
+from gitea.models.edit_issue_comment_option import EditIssueCommentOption
 
 edit_issue_comment_option = EditIssueCommentOption(
     body='body8',

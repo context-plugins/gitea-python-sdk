@@ -22,7 +22,7 @@ PullReviewRequestOptions are options to add or remove pull request review reques
 ```python
 import jsonpickle
 
-from giteaapi.models.pull_review_request_options import PullReviewRequestOptions
+from gitea.models.pull_review_request_options import PullReviewRequestOptions
 
 pull_review_request_options = PullReviewRequestOptions(
     reviewers=[

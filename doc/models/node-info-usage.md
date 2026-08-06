@@ -23,8 +23,8 @@ NodeInfoUsage contains usage statistics for this server
 ```python
 import jsonpickle
 
-from giteaapi.models.node_info_usage import NodeInfoUsage
-from giteaapi.models.node_info_usage_users import NodeInfoUsageUsers
+from gitea.models.node_info_usage import NodeInfoUsage
+from gitea.models.node_info_usage_users import NodeInfoUsageUsers
 
 node_info_usage = NodeInfoUsage(
     local_comments=184,

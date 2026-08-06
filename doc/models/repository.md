@@ -90,7 +90,7 @@ Repository represents a repository
 ```python
 import jsonpickle
 
-from giteaapi.models.repository import Repository
+from gitea.models.repository import Repository
 
 repository = Repository(
     allow_fast_forward_only_merge=False,

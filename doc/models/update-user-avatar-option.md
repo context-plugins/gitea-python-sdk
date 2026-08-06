@@ -21,7 +21,7 @@ UpdateUserAvatarUserOption options when updating the user avatar
 ```python
 import jsonpickle
 
-from giteaapi.models.update_user_avatar_option import UpdateUserAvatarOption
+from gitea.models.update_user_avatar_option import UpdateUserAvatarOption
 
 update_user_avatar_option = UpdateUserAvatarOption(
     image='image6',

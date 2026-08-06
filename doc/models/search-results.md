@@ -22,8 +22,8 @@ SearchResults results of a successful search
 ```python
 import jsonpickle
 
-from giteaapi.models.repository import Repository
-from giteaapi.models.search_results import SearchResults
+from gitea.models.repository import Repository
+from gitea.models.search_results import SearchResults
 
 search_results = SearchResults(
     data=[

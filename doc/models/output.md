@@ -15,7 +15,7 @@
 ## Example
 
 ```python
-from giteaapi.models.output import Output
+from gitea.models.output import Output
 
 output = Output.DIFF
 ```

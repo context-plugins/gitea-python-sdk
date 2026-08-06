@@ -26,7 +26,7 @@ TopicResponse for returning topics
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.topic_response import TopicResponse
+from gitea.models.topic_response import TopicResponse
 
 topic_response = TopicResponse(
     created=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

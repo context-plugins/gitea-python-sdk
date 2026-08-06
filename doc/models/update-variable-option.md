@@ -23,7 +23,7 @@ UpdateVariableOption the option when updating variable
 ```python
 import jsonpickle
 
-from giteaapi.models.update_variable_option import UpdateVariableOption
+from gitea.models.update_variable_option import UpdateVariableOption
 
 update_variable_option = UpdateVariableOption(
     value='value4',

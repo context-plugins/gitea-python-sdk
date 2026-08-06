@@ -24,7 +24,7 @@ Badge represents a user badge
 ```python
 import jsonpickle
 
-from giteaapi.models.badge import Badge
+from gitea.models.badge import Badge
 
 badge = Badge(
     description='description0',

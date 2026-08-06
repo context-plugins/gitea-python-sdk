@@ -23,7 +23,7 @@ GeneralUISettings contains global ui settings exposed by API
 ```python
 import jsonpickle
 
-from giteaapi.models.general_ui_settings import GeneralUiSettings
+from gitea.models.general_ui_settings import GeneralUiSettings
 
 general_ui_settings = GeneralUiSettings(
     allowed_reactions=[

@@ -25,8 +25,8 @@ ChangeFileOperation for creating, updating or deleting a file
 ```python
 import jsonpickle
 
-from giteaapi.models.change_file_operation import ChangeFileOperation
-from giteaapi.models.operation import Operation
+from gitea.models.change_file_operation import ChangeFileOperation
+from gitea.models.operation import Operation
 
 change_file_operation = ChangeFileOperation(
     operation=Operation.UPDATE,

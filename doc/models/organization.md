@@ -31,7 +31,7 @@ Organization represents an organization
 ```python
 import jsonpickle
 
-from giteaapi.models.organization import Organization
+from gitea.models.organization import Organization
 
 organization = Organization(
     avatar_url='avatar_url2',

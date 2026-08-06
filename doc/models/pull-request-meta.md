@@ -25,7 +25,7 @@ PullRequestMeta PR info if an issue is a PR
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.pull_request_meta import PullRequestMeta
+from gitea.models.pull_request_meta import PullRequestMeta
 
 pull_request_meta = PullRequestMeta(
     draft=False,

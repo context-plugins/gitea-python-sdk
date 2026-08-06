@@ -24,7 +24,7 @@ RepositoryMeta basic repository information
 ```python
 import jsonpickle
 
-from giteaapi.models.repository_meta import RepositoryMeta
+from gitea.models.repository_meta import RepositoryMeta
 
 repository_meta = RepositoryMeta(
     full_name='full_name8',

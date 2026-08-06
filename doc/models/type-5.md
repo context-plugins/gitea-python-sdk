@@ -15,7 +15,7 @@
 ## Example
 
 ```python
-from giteaapi.models.type_5 import Type5
+from gitea.models.type_5 import Type5
 
 type_5 = Type5.ISSUES
 ```

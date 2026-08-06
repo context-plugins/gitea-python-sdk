@@ -31,11 +31,11 @@ Note: `author` and `committer` are optional (if only one is given, it will be us
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.change_file_operation import ChangeFileOperation
-from giteaapi.models.change_files_options import ChangeFilesOptions
-from giteaapi.models.commit_date_options import CommitDateOptions
-from giteaapi.models.identity import Identity
-from giteaapi.models.operation import Operation
+from gitea.models.change_file_operation import ChangeFileOperation
+from gitea.models.change_files_options import ChangeFilesOptions
+from gitea.models.commit_date_options import CommitDateOptions
+from gitea.models.identity import Identity
+from gitea.models.operation import Operation
 
 change_files_options = ChangeFilesOptions(
     files=[

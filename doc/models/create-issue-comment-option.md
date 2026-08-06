@@ -21,7 +21,7 @@ CreateIssueCommentOption options for creating a comment on an issue
 ```python
 import jsonpickle
 
-from giteaapi.models.create_issue_comment_option import CreateIssueCommentOption
+from gitea.models.create_issue_comment_option import CreateIssueCommentOption
 
 create_issue_comment_option = CreateIssueCommentOption(
     body='body8',

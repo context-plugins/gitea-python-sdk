@@ -15,7 +15,7 @@
 ## Example
 
 ```python
-from giteaapi.models.state_1 import State1
+from gitea.models.state_1 import State1
 
 state_1 = State1.OPEN
 ```

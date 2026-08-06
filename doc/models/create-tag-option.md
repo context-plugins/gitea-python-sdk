@@ -23,7 +23,7 @@ CreateTagOption options when creating a tag
 ```python
 import jsonpickle
 
-from giteaapi.models.create_tag_option import CreateTagOption
+from gitea.models.create_tag_option import CreateTagOption
 
 create_tag_option = CreateTagOption(
     tag_name='tag_name4',

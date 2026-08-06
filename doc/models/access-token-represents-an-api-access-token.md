@@ -26,7 +26,7 @@
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.access_token_represents_an_api_access_token import AccessTokenRepresentsAnApiAccessToken
+from gitea.models.access_token_represents_an_api_access_token import AccessTokenRepresentsAnApiAccessToken
 
 access_token_represents_an_api_access_token = AccessTokenRepresentsAnApiAccessToken(
     created_at=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

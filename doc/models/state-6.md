@@ -21,7 +21,7 @@ merged NotifySubjectStateMerged is a merged pull request
 ## Example
 
 ```python
-from giteaapi.models.state_6 import State6
+from gitea.models.state_6 import State6
 
 state_6 = State6.CLOSED
 ```

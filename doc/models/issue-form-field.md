@@ -25,9 +25,9 @@ IssueFormField represents a form field
 ```python
 import jsonpickle
 
-from giteaapi.models.issue_form_field import IssueFormField
-from giteaapi.models.type_1 import Type1
-from giteaapi.models.visible import Visible
+from gitea.models.issue_form_field import IssueFormField
+from gitea.models.type_1 import Type1
+from gitea.models.visible import Visible
 
 issue_form_field = IssueFormField(
     attributes={

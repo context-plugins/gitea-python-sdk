@@ -24,9 +24,9 @@ RepoTransfer represents a pending repo transfer
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.repo_transfer import RepoTransfer
-from giteaapi.models.team import Team
-from giteaapi.models.user import User
+from gitea.models.repo_transfer import RepoTransfer
+from gitea.models.team import Team
+from gitea.models.user import User
 
 repo_transfer = RepoTransfer(
     doer=User(

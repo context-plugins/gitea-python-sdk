@@ -30,8 +30,8 @@ CommitStatus holds a single status of a single Commit
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.commit_status import CommitStatus
-from giteaapi.models.user import User
+from gitea.models.commit_status import CommitStatus
+from gitea.models.user import User
 
 commit_status = CommitStatus(
     context='context6',

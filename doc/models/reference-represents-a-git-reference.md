@@ -21,8 +21,8 @@
 ```python
 import jsonpickle
 
-from giteaapi.models.git_object_represents_a_git_object import GitObjectRepresentsAGitObject
-from giteaapi.models.reference_represents_a_git_reference import ReferenceRepresentsAGitReference
+from gitea.models.git_object_represents_a_git_object import GitObjectRepresentsAGitObject
+from gitea.models.reference_represents_a_git_reference import ReferenceRepresentsAGitReference
 
 reference_represents_a_git_reference = ReferenceRepresentsAGitReference(
     object=GitObjectRepresentsAGitObject(

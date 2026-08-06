@@ -22,7 +22,7 @@ NewIssuePinsAllowed represents an API response that says if new Issue Pins are a
 ```python
 import jsonpickle
 
-from giteaapi.models.new_issue_pins_allowed import NewIssuePinsAllowed
+from gitea.models.new_issue_pins_allowed import NewIssuePinsAllowed
 
 new_issue_pins_allowed = NewIssuePinsAllowed(
     issues=False,

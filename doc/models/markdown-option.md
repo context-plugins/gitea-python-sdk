@@ -24,7 +24,7 @@ MarkdownOption markdown options
 ```python
 import jsonpickle
 
-from giteaapi.models.markdown_option import MarkdownOption
+from gitea.models.markdown_option import MarkdownOption
 
 markdown_option = MarkdownOption(
     context='Context8',

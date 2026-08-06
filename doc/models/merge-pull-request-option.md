@@ -28,8 +28,8 @@ MergePullRequestForm form for merging Pull Request
 ```python
 import jsonpickle
 
-from giteaapi.models.do import Do
-from giteaapi.models.merge_pull_request_option import MergePullRequestOption
+from gitea.models.do import Do
+from gitea.models.merge_pull_request_option import MergePullRequestOption
 
 merge_pull_request_option = MergePullRequestOption(
     do=Do.REBASEMERGE,

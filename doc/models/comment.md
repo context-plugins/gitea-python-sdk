@@ -32,8 +32,8 @@ Comment represents a comment on a commit or issue
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.attachment import Attachment
-from giteaapi.models.comment import Comment
+from gitea.models.attachment import Attachment
+from gitea.models.comment import Comment
 
 comment = Comment(
     assets=[

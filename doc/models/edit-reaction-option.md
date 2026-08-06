@@ -21,7 +21,7 @@ EditReactionOption contain the reaction type
 ```python
 import jsonpickle
 
-from giteaapi.models.edit_reaction_option import EditReactionOption
+from gitea.models.edit_reaction_option import EditReactionOption
 
 edit_reaction_option = EditReactionOption(
     content='content2',

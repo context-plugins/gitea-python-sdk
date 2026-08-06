@@ -42,8 +42,8 @@ ActionWorkflowRun represents a WorkflowRun
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.action_workflow_run import ActionWorkflowRun
-from giteaapi.models.user import User
+from gitea.models.action_workflow_run import ActionWorkflowRun
+from gitea.models.user import User
 
 action_workflow_run = ActionWorkflowRun(
     actor=User(

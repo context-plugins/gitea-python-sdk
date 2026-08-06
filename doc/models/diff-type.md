@@ -15,7 +15,7 @@
 ## Example
 
 ```python
-from giteaapi.models.diff_type import DiffType
+from gitea.models.diff_type import DiffType
 
 diff_type = DiffType.DIFF
 ```

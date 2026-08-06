@@ -29,7 +29,7 @@ PushMirror represents information of a push mirror
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.push_mirror import PushMirror
+from gitea.models.push_mirror import PushMirror
 
 push_mirror = PushMirror(
     created=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

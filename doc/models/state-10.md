@@ -18,7 +18,7 @@
 ## Example
 
 ```python
-from giteaapi.models.state_10 import State10
+from gitea.models.state_10 import State10
 
 state_10 = State10.ERROR
 ```

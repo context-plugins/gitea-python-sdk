@@ -27,7 +27,7 @@ skipped CommitStatusSkipped is for when CommitStatus is Skipped
 ## Example
 
 ```python
-from giteaapi.models.state import State
+from gitea.models.state import State
 
 state = State.ERROR
 ```

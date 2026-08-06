@@ -21,7 +21,7 @@ ExternalWiki represents setting for external wiki
 ```python
 import jsonpickle
 
-from giteaapi.models.external_wiki import ExternalWiki
+from gitea.models.external_wiki import ExternalWiki
 
 external_wiki = ExternalWiki(
     external_wiki_url='external_wiki_url0',

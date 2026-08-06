@@ -21,7 +21,7 @@ LockIssueOption options to lock an issue
 ```python
 import jsonpickle
 
-from giteaapi.models.lock_issue_option import LockIssueOption
+from gitea.models.lock_issue_option import LockIssueOption
 
 lock_issue_option = LockIssueOption(
     lock_reason='lock_reason6',

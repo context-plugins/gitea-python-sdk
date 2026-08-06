@@ -22,7 +22,7 @@ TransferRepoOption options when transfer a repository's ownership
 ```python
 import jsonpickle
 
-from giteaapi.models.transfer_repo_option import TransferRepoOption
+from gitea.models.transfer_repo_option import TransferRepoOption
 
 transfer_repo_option = TransferRepoOption(
     new_owner='new_owner6',

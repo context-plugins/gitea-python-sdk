@@ -23,8 +23,8 @@ ActionArtifactsResponse returns ActionArtifacts
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.action_artifact import ActionArtifact
-from giteaapi.models.action_artifacts_response import ActionArtifactsResponse
+from gitea.models.action_artifact import ActionArtifact
+from gitea.models.action_artifacts_response import ActionArtifactsResponse
 
 action_artifacts_response = ActionArtifactsResponse(
     artifacts=[

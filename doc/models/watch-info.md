@@ -27,7 +27,7 @@ WatchInfo represents an API watch status of one repository
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.watch_info import WatchInfo
+from gitea.models.watch_info import WatchInfo
 
 watch_info = WatchInfo(
     created_at=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

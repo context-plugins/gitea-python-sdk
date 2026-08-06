@@ -54,7 +54,7 @@ CreateBranchProtectionOption options for creating a branch protection
 ```python
 import jsonpickle
 
-from giteaapi.models.create_branch_protection_option import CreateBranchProtectionOption
+from gitea.models.create_branch_protection_option import CreateBranchProtectionOption
 
 create_branch_protection_option = CreateBranchProtectionOption(
     approvals_whitelist_teams=[

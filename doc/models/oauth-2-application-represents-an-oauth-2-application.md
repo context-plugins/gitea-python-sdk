@@ -27,7 +27,7 @@
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.oauth_2_application_represents_an_oauth_2_application import Oauth2ApplicationRepresentsAnOauth2Application
+from gitea.models.oauth_2_application_represents_an_oauth_2_application import Oauth2ApplicationRepresentsAnOauth2Application
 
 oauth_2_application_represents_an_oauth_2_application = Oauth2ApplicationRepresentsAnOauth2Application(
     client_id='client_id2',

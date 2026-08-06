@@ -14,51 +14,51 @@ Python and PIP executables should be defined in your PATH. Open command prompt a
 * Using command line, navigate to the directory containing the generated files (including `requirements.txt`) for the SDK.
 * Run the command `pip install -r requirements.txt`. This should install all the required dependencies.
 
-![Building SDK - Step 1](https://apidocs.io/illustration/python?workspaceFolder=Giteaapi-Python&step=installDependencies)
+![Building SDK - Step 1](https://apidocs.io/illustration/python?workspaceFolder=Gitea-Python&step=installDependencies)
 
 ## Installation
 
-The following section explains how to use the giteaapi library in a new project.
+The following section explains how to use the gitea library in a new project.
 
 ### 1. Open Project in an IDE
 
 Open up a Python IDE like PyCharm. The basic workflow presented here is also applicable if you prefer using a different editor or IDE.
 
-![Open project in PyCharm - Step 1](https://apidocs.io/illustration/python?workspaceFolder=Giteaapi-Python&step=pyCharm)
+![Open project in PyCharm - Step 1](https://apidocs.io/illustration/python?workspaceFolder=Gitea-Python&step=pyCharm)
 
 Click on `Open` in PyCharm to browse to your generated SDK directory and then click `OK`.
 
-![Open project in PyCharm - Step 2](https://apidocs.io/illustration/python?workspaceFolder=Giteaapi-Python&step=openProject0)
+![Open project in PyCharm - Step 2](https://apidocs.io/illustration/python?workspaceFolder=Gitea-Python&step=openProject0)
 
 The project files will be displayed in the side bar as follows:
 
-![Open project in PyCharm - Step 3](https://apidocs.io/illustration/python?workspaceFolder=Giteaapi-Python&projectName=giteaapi&step=openProject1)
+![Open project in PyCharm - Step 3](https://apidocs.io/illustration/python?workspaceFolder=Gitea-Python&projectName=gitea&step=openProject1)
 
 ### 2. Add a new Test Project
 
 Create a new directory by right clicking on the solution name as shown below:
 
-![Add a new project in PyCharm - Step 1](https://apidocs.io/illustration/python?workspaceFolder=Giteaapi-Python&projectName=giteaapi&step=createDirectory)
+![Add a new project in PyCharm - Step 1](https://apidocs.io/illustration/python?workspaceFolder=Gitea-Python&projectName=gitea&step=createDirectory)
 
 Name the directory as "test".
 
-![Add a new project in PyCharm - Step 2](https://apidocs.io/illustration/python?workspaceFolder=Giteaapi-Python&step=nameDirectory)
+![Add a new project in PyCharm - Step 2](https://apidocs.io/illustration/python?workspaceFolder=Gitea-Python&step=nameDirectory)
 
 Add a python file to this project.
 
-![Add a new project in PyCharm - Step 3](https://apidocs.io/illustration/python?workspaceFolder=Giteaapi-Python&projectName=giteaapi&step=createFile)
+![Add a new project in PyCharm - Step 3](https://apidocs.io/illustration/python?workspaceFolder=Gitea-Python&projectName=gitea&step=createFile)
 
 Name it "testSDK".
 
-![Add a new project in PyCharm - Step 4](https://apidocs.io/illustration/python?workspaceFolder=Giteaapi-Python&projectName=giteaapi&step=nameFile)
+![Add a new project in PyCharm - Step 4](https://apidocs.io/illustration/python?workspaceFolder=Gitea-Python&projectName=gitea&step=nameFile)
 
 In your python file you will be required to import the generated python library using the following code lines
 
 ```python
-from giteaapi.giteaapi_client import GiteaapiClient
+from gitea.gitea_client import GiteaClient
 ```
 
-![Add a new project in PyCharm - Step 5](https://apidocs.io/illustration/python?workspaceFolder=Giteaapi-Python&projectName=giteaapi&libraryName=giteaapi.giteaapi_client&className=GiteaapiClient&step=projectFiles)
+![Add a new project in PyCharm - Step 5](https://apidocs.io/illustration/python?workspaceFolder=Gitea-Python&projectName=gitea&libraryName=gitea.gitea_client&className=GiteaClient&step=projectFiles)
 
 After this you can write code to instantiate an API client object, get a controller object and  make API calls. Sample code is given in the subsequent sections.
 
@@ -66,7 +66,7 @@ After this you can write code to instantiate an API client object, get a control
 
 To run the file within your test project, right click on your Python file inside your Test project and click on `Run`
 
-![Run Test Project - Step 1](https://apidocs.io/illustration/python?workspaceFolder=Giteaapi-Python&projectName=giteaapi&libraryName=giteaapi.giteaapi_client&className=GiteaapiClient&step=runProject)
+![Run Test Project - Step 1](https://apidocs.io/illustration/python?workspaceFolder=Gitea-Python&projectName=gitea&libraryName=gitea.gitea_client&className=GiteaClient&step=runProject)
 
 ## Initialize the API Client
 
@@ -76,6 +76,7 @@ The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
+| default_host | `str` | *Default*: `"www.example.com/api/v1"` |
 | environment | [`Environment`](README.md#environments) | The API environment. <br> **Default: `Environment.PRODUCTION`** |
 | http_client_instance | `Union[Session, HttpClientProvider]` | The Http Client passed from the sdk user for making requests |
 | override_http_client_configuration | `bool` | The value which determines to override properties of the passed Http Client from the sdk user |
@@ -102,20 +103,20 @@ The API client can be initialized as follows:
 ```python
 import logging
 
-from giteaapi.configuration import Environment
-from giteaapi.giteaapi_client import GiteaapiClient
-from giteaapi.http.auth.access_token import AccessTokenCredentials
-from giteaapi.http.auth.authorization_header_token import AuthorizationHeaderTokenCredentials
-from giteaapi.http.auth.basic_auth import BasicAuthCredentials
-from giteaapi.http.auth.sudo_header import SudoHeaderCredentials
-from giteaapi.http.auth.sudo_param import SudoParamCredentials
-from giteaapi.http.auth.token import TokenCredentials
-from giteaapi.http.auth.totp_header import TotpHeaderCredentials
-from giteaapi.logging.configuration.api_logging_configuration import LoggingConfiguration
-from giteaapi.logging.configuration.api_logging_configuration import RequestLoggingConfiguration
-from giteaapi.logging.configuration.api_logging_configuration import ResponseLoggingConfiguration
+from gitea.configuration import Environment
+from gitea.gitea_client import GiteaClient
+from gitea.http.auth.access_token import AccessTokenCredentials
+from gitea.http.auth.authorization_header_token import AuthorizationHeaderTokenCredentials
+from gitea.http.auth.basic_auth import BasicAuthCredentials
+from gitea.http.auth.sudo_header import SudoHeaderCredentials
+from gitea.http.auth.sudo_param import SudoParamCredentials
+from gitea.http.auth.token import TokenCredentials
+from gitea.http.auth.totp_header import TotpHeaderCredentials
+from gitea.logging.configuration.api_logging_configuration import LoggingConfiguration
+from gitea.logging.configuration.api_logging_configuration import RequestLoggingConfiguration
+from gitea.logging.configuration.api_logging_configuration import ResponseLoggingConfiguration
 
-client = GiteaapiClient(
+client = GiteaClient(
     access_token_credentials=AccessTokenCredentials(
         access_token='access_token'
     ),
@@ -139,6 +140,7 @@ client = GiteaapiClient(
         token='token'
     ),
     environment=Environment.PRODUCTION,
+    default_host='www.example.com/api/v1',
     logging_configuration=LoggingConfiguration(
         log_level=logging.INFO,
         request_logging_config=RequestLoggingConfiguration(
@@ -154,10 +156,10 @@ client = GiteaapiClient(
 ### Environment-Based Client Initialization
 
 ```python
-from giteaapi.giteaapi_client import GiteaapiClient
+from gitea.gitea_client import GiteaClient
 
 # Specify the path to your .env file if it’s located outside the project’s root directory.
-client = GiteaapiClient.from_environment(dotenv_path='/path/to/.env')
+client = GiteaClient.from_environment(dotenv_path='/path/to/.env')
 ```
 
 See the [Environment-Based Client Initialization](doc/environment-based-client-initialization.md) section for details.

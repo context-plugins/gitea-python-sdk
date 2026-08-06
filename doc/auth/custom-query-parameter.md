@@ -22,10 +22,10 @@ Documentation for accessing and setting credentials for AccessToken.
 You must provide credentials in the client as shown in the following code snippet.
 
 ```python
-from giteaapi.giteaapi_client import GiteaapiClient
-from giteaapi.http.auth.access_token import AccessTokenCredentials
+from gitea.gitea_client import GiteaClient
+from gitea.http.auth.access_token import AccessTokenCredentials
 
-client = GiteaapiClient(
+client = GiteaClient(
     access_token_credentials=AccessTokenCredentials(
         access_token='access_token'
     )

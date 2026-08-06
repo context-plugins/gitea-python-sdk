@@ -21,7 +21,7 @@ UpdateRepoAvatarUserOption options when updating the repo avatar
 ```python
 import jsonpickle
 
-from giteaapi.models.update_repo_avatar_option import UpdateRepoAvatarOption
+from gitea.models.update_repo_avatar_option import UpdateRepoAvatarOption
 
 update_repo_avatar_option = UpdateRepoAvatarOption(
     image='image6',

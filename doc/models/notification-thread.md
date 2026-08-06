@@ -27,10 +27,10 @@ NotificationThread expose Notification on API
 ```python
 import jsonpickle
 
-from giteaapi.models.notification_subject import NotificationSubject
-from giteaapi.models.notification_thread import NotificationThread
-from giteaapi.models.repository import Repository
-from giteaapi.models.state_6 import State6
+from gitea.models.notification_subject import NotificationSubject
+from gitea.models.notification_thread import NotificationThread
+from gitea.models.repository import Repository
+from gitea.models.state_6 import State6
 
 notification_thread = NotificationThread(
     id=106,

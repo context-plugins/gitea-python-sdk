@@ -56,7 +56,7 @@ BranchProtection represents a branch protection for a repository
 ```python
 import jsonpickle
 
-from giteaapi.models.branch_protection import BranchProtection
+from gitea.models.branch_protection import BranchProtection
 
 branch_protection = BranchProtection(
     approvals_whitelist_teams=[

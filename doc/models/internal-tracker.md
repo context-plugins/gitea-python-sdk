@@ -23,7 +23,7 @@ InternalTracker represents settings for internal tracker
 ```python
 import jsonpickle
 
-from giteaapi.models.internal_tracker import InternalTracker
+from gitea.models.internal_tracker import InternalTracker
 
 internal_tracker = InternalTracker(
     allow_only_contributors_to_track_time=False,

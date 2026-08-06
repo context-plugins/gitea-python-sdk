@@ -27,7 +27,7 @@ EditOrgOption options for editing an organization
 ```python
 import jsonpickle
 
-from giteaapi.models.edit_org_option import EditOrgOption
+from gitea.models.edit_org_option import EditOrgOption
 
 edit_org_option = EditOrgOption(
     description='description8',

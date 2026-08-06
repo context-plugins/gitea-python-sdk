@@ -23,7 +23,7 @@ GitHook represents a Git repository hook
 ```python
 import jsonpickle
 
-from giteaapi.models.git_hook import GitHook
+from gitea.models.git_hook import GitHook
 
 git_hook = GitHook(
     content='content2',

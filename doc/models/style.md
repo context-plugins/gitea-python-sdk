@@ -15,7 +15,7 @@
 ## Example
 
 ```python
-from giteaapi.models.style import Style
+from gitea.models.style import Style
 
 style = Style.MERGE
 ```

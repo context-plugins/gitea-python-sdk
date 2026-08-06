@@ -27,8 +27,8 @@ Tag represents a repository tag
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.commit_meta_contains_meta_information_of_a_commit_in_terms_of_api import CommitMetaContainsMetaInformationOfACommitInTermsOfApi
-from giteaapi.models.tag import Tag
+from gitea.models.commit_meta_contains_meta_information_of_a_commit_in_terms_of_api import CommitMetaContainsMetaInformationOfACommitInTermsOfApi
+from gitea.models.tag import Tag
 
 tag = Tag(
     commit=CommitMetaContainsMetaInformationOfACommitInTermsOfApi(

@@ -34,7 +34,7 @@ PullReview represents a pull request review
 ```python
 import jsonpickle
 
-from giteaapi.models.pull_review import PullReview
+from gitea.models.pull_review import PullReview
 
 pull_review = PullReview(
     body='body0',

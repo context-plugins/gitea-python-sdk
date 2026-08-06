@@ -23,7 +23,7 @@ AnnotatedTagObject contains meta information of the tag object
 ```python
 import jsonpickle
 
-from giteaapi.models.annotated_tag_object import AnnotatedTagObject
+from gitea.models.annotated_tag_object import AnnotatedTagObject
 
 annotated_tag_object = AnnotatedTagObject(
     sha='sha2',

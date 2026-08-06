@@ -16,7 +16,7 @@
 ## Example
 
 ```python
-from giteaapi.models.type_3 import Type3
+from gitea.models.type_3 import Type3
 
 type_3 = Type3.DEFAULT
 ```

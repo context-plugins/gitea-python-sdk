@@ -21,7 +21,7 @@ CreatePullReviewCommentReplyOptions are options to reply to a pull request revie
 ```python
 import jsonpickle
 
-from giteaapi.models.create_pull_review_comment_reply_options import CreatePullReviewCommentReplyOptions
+from gitea.models.create_pull_review_comment_reply_options import CreatePullReviewCommentReplyOptions
 
 create_pull_review_comment_reply_options = CreatePullReviewCommentReplyOptions(
     body='body2',

@@ -24,9 +24,9 @@ RepoCollaboratorPermission to get repository permission for a collaborator
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.permission_5 import Permission5
-from giteaapi.models.repo_collaborator_permission import RepoCollaboratorPermission
-from giteaapi.models.user import User
+from gitea.models.permission_5 import Permission5
+from gitea.models.repo_collaborator_permission import RepoCollaboratorPermission
+from gitea.models.user import User
 
 repo_collaborator_permission = RepoCollaboratorPermission(
     permission=Permission5.OWNER,

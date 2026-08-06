@@ -22,7 +22,7 @@ CreateOrUpdateSecretOption options when creating or updating secret
 ```python
 import jsonpickle
 
-from giteaapi.models.create_or_update_secret_option import CreateOrUpdateSecretOption
+from gitea.models.create_or_update_secret_option import CreateOrUpdateSecretOption
 
 create_or_update_secret_option = CreateOrUpdateSecretOption(
     data='data4',

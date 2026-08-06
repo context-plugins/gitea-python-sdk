@@ -25,7 +25,7 @@ owner AccessLevelNameOwner
 ## Example
 
 ```python
-from giteaapi.models.permission_5 import Permission5
+from gitea.models.permission_5 import Permission5
 
 permission_5 = Permission5.READ
 ```

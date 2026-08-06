@@ -21,7 +21,7 @@ TopicName a list of repo topic names
 ```python
 import jsonpickle
 
-from giteaapi.models.topic_name import TopicName
+from gitea.models.topic_name import TopicName
 
 topic_name = TopicName(
     topics=[

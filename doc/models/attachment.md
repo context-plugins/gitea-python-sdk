@@ -28,7 +28,7 @@ Attachment a generic attachment
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.attachment import Attachment
+from gitea.models.attachment import Attachment
 
 attachment = Attachment(
     browser_download_url='browser_download_url6',

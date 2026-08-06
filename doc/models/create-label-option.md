@@ -25,7 +25,7 @@ CreateLabelOption options for creating a label
 ```python
 import jsonpickle
 
-from giteaapi.models.create_label_option import CreateLabelOption
+from gitea.models.create_label_option import CreateLabelOption
 
 create_label_option = CreateLabelOption(
     color='#00aabb',

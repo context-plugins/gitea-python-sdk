@@ -21,8 +21,8 @@ AddCollaboratorOption options when adding a user as a collaborator of a reposito
 ```python
 import jsonpickle
 
-from giteaapi.models.add_collaborator_option import AddCollaboratorOption
-from giteaapi.models.permission_2 import Permission2
+from gitea.models.add_collaborator_option import AddCollaboratorOption
+from gitea.models.permission_2 import Permission2
 
 add_collaborator_option = AddCollaboratorOption(
     permission=Permission2.READ,

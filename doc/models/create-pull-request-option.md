@@ -32,7 +32,7 @@ CreatePullRequestOption options when creating a pull request
 ```python
 import jsonpickle
 
-from giteaapi.models.create_pull_request_option import CreatePullRequestOption
+from gitea.models.create_pull_request_option import CreatePullRequestOption
 
 create_pull_request_option = CreatePullRequestOption(
     allow_maintainer_edit=False,

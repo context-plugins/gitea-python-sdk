@@ -24,7 +24,7 @@ CreateOAuth2ApplicationOptions holds options to create an oauth2 application
 ```python
 import jsonpickle
 
-from giteaapi.models.create_oauth_2_application_options import CreateOauth2ApplicationOptions
+from gitea.models.create_oauth_2_application_options import CreateOauth2ApplicationOptions
 
 create_oauth_2_application_options = CreateOauth2ApplicationOptions(
     confidential_client=False,

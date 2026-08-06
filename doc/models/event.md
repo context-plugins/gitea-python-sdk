@@ -18,7 +18,7 @@
 ## Example
 
 ```python
-from giteaapi.models.event import Event
+from gitea.models.event import Event
 
 event = Event.APPROVED
 ```

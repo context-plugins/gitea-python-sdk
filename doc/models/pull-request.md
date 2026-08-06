@@ -59,10 +59,10 @@ PullRequest represents a pull request
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.pr_branch_info import PrBranchInfo
-from giteaapi.models.pull_request import PullRequest
-from giteaapi.models.repository import Repository
-from giteaapi.models.user import User
+from gitea.models.pr_branch_info import PrBranchInfo
+from gitea.models.pull_request import PullRequest
+from gitea.models.repository import Repository
+from gitea.models.user import User
 
 pull_request = PullRequest(
     additions=160,

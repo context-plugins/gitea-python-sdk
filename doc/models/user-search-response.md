@@ -21,8 +21,8 @@
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.user import User
-from giteaapi.models.user_search_response import UserSearchResponse
+from gitea.models.user import User
+from gitea.models.user_search_response import UserSearchResponse
 
 user_search_response = UserSearchResponse(
     data=[

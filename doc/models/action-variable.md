@@ -25,7 +25,7 @@ ActionVariable return value of the query API
 ```python
 import jsonpickle
 
-from giteaapi.models.action_variable import ActionVariable
+from gitea.models.action_variable import ActionVariable
 
 action_variable = ActionVariable(
     data='data2',

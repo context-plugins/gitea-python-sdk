@@ -22,7 +22,7 @@ EditDeadlineOption options for creating a deadline
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.edit_deadline_option import EditDeadlineOption
+from gitea.models.edit_deadline_option import EditDeadlineOption
 
 edit_deadline_option = EditDeadlineOption(
     due_date=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

@@ -22,7 +22,7 @@ NodeInfoServices contains the third party sites this server can connect to via t
 ```python
 import jsonpickle
 
-from giteaapi.models.node_info_services import NodeInfoServices
+from gitea.models.node_info_services import NodeInfoServices
 
 node_info_services = NodeInfoServices(
     inbound=[

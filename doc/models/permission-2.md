@@ -21,7 +21,7 @@ admin RepoWritePermissionAdmin
 ## Example
 
 ```python
-from giteaapi.models.permission_2 import Permission2
+from gitea.models.permission_2 import Permission2
 
 permission_2 = Permission2.READ
 ```

@@ -20,9 +20,9 @@
 ```python
 import jsonpickle
 
-from giteaapi.models.contents_ext_response import ContentsExtResponse
-from giteaapi.models.contents_response import ContentsResponse
-from giteaapi.models.file_links_response import FileLinksResponse
+from gitea.models.contents_ext_response import ContentsExtResponse
+from gitea.models.contents_response import ContentsResponse
+from gitea.models.file_links_response import FileLinksResponse
 
 contents_ext_response = ContentsExtResponse(
     dir_contents=[

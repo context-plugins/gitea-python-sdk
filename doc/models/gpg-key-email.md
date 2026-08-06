@@ -22,7 +22,7 @@ GPGKeyEmail an email attached to a GPGKey
 ```python
 import jsonpickle
 
-from giteaapi.models.gpg_key_email import GpgKeyEmail
+from gitea.models.gpg_key_email import GpgKeyEmail
 
 gpg_key_email = GpgKeyEmail(
     email='email6',

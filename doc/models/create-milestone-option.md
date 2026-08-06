@@ -25,8 +25,8 @@ CreateMilestoneOption options for creating a milestone
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.create_milestone_option import CreateMilestoneOption
-from giteaapi.models.state_1 import State1
+from gitea.models.create_milestone_option import CreateMilestoneOption
+from gitea.models.state_1 import State1
 
 create_milestone_option = CreateMilestoneOption(
     description='description2',

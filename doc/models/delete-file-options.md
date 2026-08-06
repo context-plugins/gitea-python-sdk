@@ -31,9 +31,9 @@ Note: `author` and `committer` are optional (if only one is given, it will be us
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.commit_date_options import CommitDateOptions
-from giteaapi.models.delete_file_options import DeleteFileOptions
-from giteaapi.models.identity import Identity
+from gitea.models.commit_date_options import CommitDateOptions
+from gitea.models.delete_file_options import DeleteFileOptions
+from gitea.models.identity import Identity
 
 delete_file_options = DeleteFileOptions(
     sha='sha8',

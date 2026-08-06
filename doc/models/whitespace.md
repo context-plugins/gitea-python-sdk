@@ -17,7 +17,7 @@
 ## Example
 
 ```python
-from giteaapi.models.whitespace import Whitespace
+from gitea.models.whitespace import Whitespace
 
 whitespace = Whitespace.IGNOREEOL
 ```

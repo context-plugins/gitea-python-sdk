@@ -22,7 +22,7 @@ Identity for a person's identity like an author or committer
 ```python
 import jsonpickle
 
-from giteaapi.models.identity import Identity
+from gitea.models.identity import Identity
 
 identity = Identity(
     email='email2',

@@ -26,7 +26,7 @@ GitEntry represents a git tree
 ```python
 import jsonpickle
 
-from giteaapi.models.git_entry import GitEntry
+from gitea.models.git_entry import GitEntry
 
 git_entry = GitEntry(
     mode='mode4',

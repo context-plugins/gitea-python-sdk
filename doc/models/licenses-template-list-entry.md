@@ -23,7 +23,7 @@ LicensesListEntry is used for the API
 ```python
 import jsonpickle
 
-from giteaapi.models.licenses_template_list_entry import LicensesTemplateListEntry
+from gitea.models.licenses_template_list_entry import LicensesTemplateListEntry
 
 licenses_template_list_entry = LicensesTemplateListEntry(
     key='key2',

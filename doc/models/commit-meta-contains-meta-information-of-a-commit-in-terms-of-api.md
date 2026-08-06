@@ -22,7 +22,7 @@
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.commit_meta_contains_meta_information_of_a_commit_in_terms_of_api import CommitMetaContainsMetaInformationOfACommitInTermsOfApi
+from gitea.models.commit_meta_contains_meta_information_of_a_commit_in_terms_of_api import CommitMetaContainsMetaInformationOfACommitInTermsOfApi
 
 commit_meta_contains_meta_information_of_a_commit_in_terms_of_api = CommitMetaContainsMetaInformationOfACommitInTermsOfApi(
     created=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

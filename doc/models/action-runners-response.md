@@ -22,9 +22,9 @@ ActionRunnersResponse returns Runners
 ```python
 import jsonpickle
 
-from giteaapi.models.action_runner import ActionRunner
-from giteaapi.models.action_runner_label import ActionRunnerLabel
-from giteaapi.models.action_runners_response import ActionRunnersResponse
+from gitea.models.action_runner import ActionRunner
+from gitea.models.action_runner_label import ActionRunnerLabel
+from gitea.models.action_runners_response import ActionRunnersResponse
 
 action_runners_response = ActionRunnersResponse(
     runners=[

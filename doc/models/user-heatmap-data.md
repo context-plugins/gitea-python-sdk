@@ -22,7 +22,7 @@ UserHeatmapData represents the data needed to create a heatmap
 ```python
 import jsonpickle
 
-from giteaapi.models.user_heatmap_data import UserHeatmapData
+from gitea.models.user_heatmap_data import UserHeatmapData
 
 user_heatmap_data = UserHeatmapData(
     contributions=226,

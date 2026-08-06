@@ -21,7 +21,7 @@
 ```python
 import jsonpickle
 
-from giteaapi.models.issue_config_contact_link import IssueConfigContactLink
+from gitea.models.issue_config_contact_link import IssueConfigContactLink
 
 issue_config_contact_link = IssueConfigContactLink(
     about='about6',

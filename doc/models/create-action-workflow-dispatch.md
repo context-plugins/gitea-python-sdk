@@ -22,7 +22,7 @@ CreateActionWorkflowDispatch represents the payload for triggering a workflow di
 ```python
 import jsonpickle
 
-from giteaapi.models.create_action_workflow_dispatch import CreateActionWorkflowDispatch
+from gitea.models.create_action_workflow_dispatch import CreateActionWorkflowDispatch
 
 create_action_workflow_dispatch = CreateActionWorkflowDispatch(
     ref='refs/heads/main',

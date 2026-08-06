@@ -28,7 +28,7 @@ StopWatch represent a running stopwatch
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.stop_watch import StopWatch
+from gitea.models.stop_watch import StopWatch
 
 stop_watch = StopWatch(
     created=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

@@ -23,7 +23,7 @@ RunDetails returns workflow_dispatch runid and url
 ```python
 import jsonpickle
 
-from giteaapi.models.run_details import RunDetails
+from gitea.models.run_details import RunDetails
 
 run_details = RunDetails(
     html_url='html_url8',

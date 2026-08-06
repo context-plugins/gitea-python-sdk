@@ -30,8 +30,8 @@ PayloadCommit represents a commit
 ```python
 import jsonpickle
 
-from giteaapi.models.payload_commit import PayloadCommit
-from giteaapi.models.payload_user import PayloadUser
+from gitea.models.payload_commit import PayloadCommit
+from gitea.models.payload_user import PayloadUser
 
 payload_commit = PayloadCommit(
     added=[

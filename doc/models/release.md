@@ -37,9 +37,9 @@ Release represents a repository release
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.attachment import Attachment
-from giteaapi.models.release import Release
-from giteaapi.models.user import User
+from gitea.models.attachment import Attachment
+from gitea.models.release import Release
+from gitea.models.user import User
 
 release = Release(
     assets=[

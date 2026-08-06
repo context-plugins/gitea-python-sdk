@@ -21,7 +21,7 @@ private UserVisibilityPrivate
 ## Example
 
 ```python
-from giteaapi.models.visibility import Visibility
+from gitea.models.visibility import Visibility
 
 visibility = Visibility.PRIVATE
 ```

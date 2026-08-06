@@ -21,7 +21,7 @@ ServerVersion wraps the version of the server
 ```python
 import jsonpickle
 
-from giteaapi.models.server_version import ServerVersion
+from gitea.models.server_version import ServerVersion
 
 server_version = ServerVersion(
     version='version8',

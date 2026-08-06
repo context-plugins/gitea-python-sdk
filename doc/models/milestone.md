@@ -31,7 +31,7 @@ Milestone milestone is a collection of issues on one repository
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.milestone import Milestone
+from gitea.models.milestone import Milestone
 
 milestone = Milestone(
     closed_at=dateutil.parser.parse('2016-03-13T12:52:32.123Z'),

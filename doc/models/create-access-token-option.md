@@ -22,7 +22,7 @@ CreateAccessTokenOption options when create access token
 ```python
 import jsonpickle
 
-from giteaapi.models.create_access_token_option import CreateAccessTokenOption
+from gitea.models.create_access_token_option import CreateAccessTokenOption
 
 create_access_token_option = CreateAccessTokenOption(
     name='name6',

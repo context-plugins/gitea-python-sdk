@@ -24,7 +24,7 @@ GeneralAttachmentSettings contains global Attachment settings exposed by API
 ```python
 import jsonpickle
 
-from giteaapi.models.general_attachment_settings import GeneralAttachmentSettings
+from gitea.models.general_attachment_settings import GeneralAttachmentSettings
 
 general_attachment_settings = GeneralAttachmentSettings(
     allowed_types='allowed_types6',

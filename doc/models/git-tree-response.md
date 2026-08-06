@@ -26,8 +26,8 @@ GitTreeResponse returns a git tree
 ```python
 import jsonpickle
 
-from giteaapi.models.git_entry import GitEntry
-from giteaapi.models.git_tree_response import GitTreeResponse
+from gitea.models.git_entry import GitEntry
+from gitea.models.git_tree_response import GitTreeResponse
 
 git_tree_response = GitTreeResponse(
     page=56,

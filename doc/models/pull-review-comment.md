@@ -36,7 +36,7 @@ PullReviewComment represents a comment on a pull request review
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.pull_review_comment import PullReviewComment
+from gitea.models.pull_review_comment import PullReviewComment
 
 pull_review_comment = PullReviewComment(
     body='body0',

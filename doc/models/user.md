@@ -43,7 +43,7 @@ User represents a user
 import dateutil.parser
 import jsonpickle
 
-from giteaapi.models.user import User
+from gitea.models.user import User
 
 user = User(
     active=False,

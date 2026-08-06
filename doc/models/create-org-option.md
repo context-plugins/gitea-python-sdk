@@ -28,7 +28,7 @@ CreateOrgOption options for creating an organization
 ```python
 import jsonpickle
 
-from giteaapi.models.create_org_option import CreateOrgOption
+from gitea.models.create_org_option import CreateOrgOption
 
 create_org_option = CreateOrgOption(
     username='username0',

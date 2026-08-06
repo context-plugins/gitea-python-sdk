@@ -21,7 +21,7 @@ RenameOrgOption options when renaming an organization
 ```python
 import jsonpickle
 
-from giteaapi.models.rename_org_option import RenameOrgOption
+from gitea.models.rename_org_option import RenameOrgOption
 
 rename_org_option = RenameOrgOption(
     new_name='new_name0',

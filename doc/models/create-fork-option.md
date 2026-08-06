@@ -22,7 +22,7 @@ CreateForkOption options for creating a fork
 ```python
 import jsonpickle
 
-from giteaapi.models.create_fork_option import CreateForkOption
+from gitea.models.create_fork_option import CreateForkOption
 
 create_fork_option = CreateForkOption(
     name='name0',

@@ -19,7 +19,7 @@ TrustModel of the repository
 ## Example
 
 ```python
-from giteaapi.models.trust_model import TrustModel
+from gitea.models.trust_model import TrustModel
 
 trust_model = TrustModel.COMMITTER
 ```

@@ -22,10 +22,10 @@ Documentation for accessing and setting credentials for SudoParam.
 You must provide credentials in the client as shown in the following code snippet.
 
 ```python
-from giteaapi.giteaapi_client import GiteaapiClient
-from giteaapi.http.auth.sudo_param import SudoParamCredentials
+from gitea.gitea_client import GiteaClient
+from gitea.http.auth.sudo_param import SudoParamCredentials
 
-client = GiteaapiClient(
+client = GiteaClient(
     sudo_param_credentials=SudoParamCredentials(
         sudo='sudo'
     )

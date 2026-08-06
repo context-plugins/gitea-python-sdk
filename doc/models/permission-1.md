@@ -18,7 +18,7 @@
 ## Example
 
 ```python
-from giteaapi.models.permission_1 import Permission1
+from gitea.models.permission_1 import Permission1
 
 permission_1 = Permission1.NONE
 ```

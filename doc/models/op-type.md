@@ -42,7 +42,7 @@ the type of action
 ## Example
 
 ```python
-from giteaapi.models.op_type import OpType
+from gitea.models.op_type import OpType
 
 op_type = OpType.PULL_REVIEW_DISMISSED
 ```

@@ -24,9 +24,9 @@ CreatePullReviewOptions are options to create a pull request review
 ```python
 import jsonpickle
 
-from giteaapi.models.create_pull_review_comment import CreatePullReviewComment
-from giteaapi.models.create_pull_review_options import CreatePullReviewOptions
-from giteaapi.models.event import Event
+from gitea.models.create_pull_review_comment import CreatePullReviewComment
+from gitea.models.create_pull_review_options import CreatePullReviewOptions
+from gitea.models.event import Event
 
 create_pull_review_options = CreatePullReviewOptions(
     body='body2',

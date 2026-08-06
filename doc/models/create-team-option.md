@@ -28,8 +28,8 @@ CreateTeamOption options for creating a team
 ```python
 import jsonpickle
 
-from giteaapi.models.create_team_option import CreateTeamOption
-from giteaapi.models.permission_3 import Permission3
+from gitea.models.create_team_option import CreateTeamOption
+from gitea.models.permission_3 import Permission3
 
 create_team_option = CreateTeamOption(
     name='name2',

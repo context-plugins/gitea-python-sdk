@@ -24,8 +24,8 @@ CreateStatusOption holds the information needed to create a new CommitStatus for
 ```python
 import jsonpickle
 
-from giteaapi.models.create_status_option import CreateStatusOption
-from giteaapi.models.state_2 import State2
+from gitea.models.create_status_option import CreateStatusOption
+from gitea.models.state_2 import State2
 
 create_status_option = CreateStatusOption(
     context='context0',
